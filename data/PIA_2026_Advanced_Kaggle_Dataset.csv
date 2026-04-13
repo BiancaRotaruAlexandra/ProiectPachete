@@ -1,0 +1,801 @@
+Flight_ID,Date,Month,Day_of_Week,Departure_City,Arrival_City,Route_Type,Aircraft_Type,Flight_Duration_Minutes,Passengers,Seat_Capacity,Load_Factor_%,Ticket_Price_USD,Revenue_USD,Delay_Minutes,Delay_Category,On_Time_Status,Weather_Condition,Fuel_Consumption_Liters,CO2_Emissions_kg,Customer_Rating,Customer_Feedback
+PK2026_0001,2026-06-09,June,Tuesday,Jeddah,Islamabad,International,Airbus A320,83,120,180,66.67,1140,136800,220,Severe,Delayed,Clear,6265,15662.5,4.1,Poor service
+PK2026_0002,2026-08-12,August,Wednesday,Dubai,Kuala Lumpur,International,Airbus A320,284,179,180,99.44,773,138367,27,Minor,Delayed,Rain,3516,8790.0,3.6,Average flight
+PK2026_0003,2026-04-20,April,Monday,Doha,Lahore,International,ATR 72,333,69,70,98.57,155,10695,176,Severe,Delayed,Fog,13538,33845.0,3.0,Delayed but comfortable
+PK2026_0004,2026-12-07,December,Monday,Jeddah,Lahore,International,Boeing 777,330,291,350,83.14,1237,359967,87,Moderate,Delayed,Rain,18850,47125.0,4.4,Average flight
+PK2026_0005,2026-05-04,May,Monday,Lahore,Doha,International,Boeing 737,283,159,160,99.38,141,22419,82,Moderate,Delayed,Fog,13474,33685.0,3.0,Delayed but comfortable
+PK2026_0006,2026-01-12,January,Monday,Lahore,Dubai,International,Airbus A320,433,172,180,95.56,911,156692,192,Severe,Delayed,Clear,5207,13017.5,4.1,Average flight
+PK2026_0007,2026-08-01,August,Saturday,Jeddah,Dubai,International,Boeing 737,198,158,160,98.75,1398,220884,163,Severe,Delayed,Rain,9342,23355.0,4.2,Good experience
+PK2026_0008,2026-09-11,September,Friday,Doha,London,International,Boeing 777,112,299,350,85.43,1069,319631,133,Severe,Delayed,Rain,3070,7675.0,4.9,Excellent service
+PK2026_0009,2026-11-25,November,Wednesday,Lahore,London,International,Boeing 737,468,83,160,51.88,573,47559,119,Moderate,Delayed,Fog,4465,11162.5,3.2,Excellent service
+PK2026_0010,2026-07-15,July,Wednesday,Islamabad,Dubai,International,ATR 72,420,56,70,80.0,1494,83664,64,Moderate,Delayed,Clear,14649,36622.5,3.1,Very smooth journey
+PK2026_0011,2026-03-24,March,Tuesday,Dubai,Islamabad,International,Airbus A320,191,177,180,98.33,862,152574,196,Severe,Delayed,Storm,4444,11110.0,3.0,Very smooth journey
+PK2026_0012,2026-02-13,February,Friday,Lahore,Kuala Lumpur,International,Airbus A320,190,117,180,65.0,800,93600,10,Minor,On Time,Fog,13855,34637.5,4.8,Good experience
+PK2026_0013,2026-02-27,February,Friday,Jeddah,Islamabad,International,Boeing 737,280,128,160,80.0,899,115072,36,Moderate,Delayed,Fog,17847,44617.5,3.1,Average flight
+PK2026_0014,2026-11-23,November,Monday,Doha,London,International,Boeing 737,366,102,160,63.75,548,55896,103,Moderate,Delayed,Storm,14834,37085.0,4.7,Delayed but comfortable
+PK2026_0015,2026-12-08,December,Tuesday,Doha,Karachi,International,Boeing 737,81,90,160,56.25,1420,127800,95,Moderate,Delayed,Storm,7107,17767.5,5.0,Delayed but comfortable
+PK2026_0016,2026-08-16,August,Sunday,Karachi,Lahore,Domestic,Airbus A320,347,95,180,52.78,1214,115330,126,Severe,Delayed,Fog,12669,31672.5,3.2,Good experience
+PK2026_0017,2026-09-06,September,Sunday,Kuala Lumpur,Karachi,International,ATR 72,326,68,70,97.14,271,18428,180,Severe,Delayed,Fog,19892,49730.0,5.0,Poor service
+PK2026_0018,2026-11-20,November,Friday,Doha,Lahore,International,Boeing 737,253,159,160,99.38,1190,189210,6,Minor,On Time,Clear,12936,32340.0,4.3,Good experience
+PK2026_0019,2026-10-10,October,Saturday,Karachi,Islamabad,Domestic,Boeing 777,261,255,350,72.86,344,87720,157,Severe,Delayed,Fog,12766,31915.0,3.1,Delayed but comfortable
+PK2026_0020,2026-04-26,April,Sunday,Kuala Lumpur,Lahore,International,Boeing 777,386,306,350,87.43,1308,400248,220,Severe,Delayed,Fog,13419,33547.5,4.4,Very smooth journey
+PK2026_0021,2026-05-18,May,Monday,Karachi,Jeddah,International,Boeing 737,348,94,160,58.75,965,90710,123,Severe,Delayed,Clear,3190,7975.0,4.4,Good experience
+PK2026_0022,2026-12-18,December,Friday,Kuala Lumpur,London,International,Airbus A320,270,113,180,62.78,669,75597,126,Severe,Delayed,Clear,18990,47475.0,3.3,Very smooth journey
+PK2026_0023,2026-09-23,September,Wednesday,Lahore,Karachi,Domestic,Boeing 777,220,286,350,81.71,1371,392106,151,Severe,Delayed,Storm,6962,17405.0,3.8,Poor service
+PK2026_0024,2026-11-11,November,Wednesday,Doha,Kuala Lumpur,International,Airbus A320,243,172,180,95.56,654,112488,42,Moderate,Delayed,Rain,9877,24692.5,3.7,Poor service
+PK2026_0025,2026-07-30,July,Thursday,Islamabad,London,International,Airbus A320,72,141,180,78.33,461,65001,213,Severe,Delayed,Fog,19759,49397.5,3.7,Average flight
+PK2026_0026,2026-10-03,October,Saturday,Dubai,Doha,International,Boeing 737,67,120,160,75.0,516,61920,225,Severe,Delayed,Storm,6207,15517.5,3.4,Excellent service
+PK2026_0027,2026-01-04,January,Sunday,Dubai,Karachi,International,ATR 72,470,45,70,64.29,210,9450,23,Minor,Delayed,Clear,10155,25387.5,4.4,Poor service
+PK2026_0028,2026-08-03,August,Monday,Jeddah,Islamabad,International,Boeing 777,127,326,350,93.14,1176,383376,75,Moderate,Delayed,Storm,16290,40725.0,5.0,Delayed but comfortable
+PK2026_0029,2026-09-24,September,Thursday,Doha,Kuala Lumpur,International,ATR 72,132,59,70,84.29,713,42067,185,Severe,Delayed,Storm,19218,48045.0,3.7,Poor service
+PK2026_0030,2026-01-02,January,Friday,Dubai,Kuala Lumpur,International,Airbus A320,173,175,180,97.22,665,116375,77,Moderate,Delayed,Rain,16747,41867.5,4.8,Very smooth journey
+PK2026_0031,2026-08-23,August,Sunday,Jeddah,Islamabad,International,Boeing 777,430,347,350,99.14,972,337284,164,Severe,Delayed,Clear,16095,40237.5,3.4,Average flight
+PK2026_0032,2026-09-03,September,Thursday,London,Jeddah,International,Airbus A320,222,160,180,88.89,1160,185600,7,Minor,On Time,Fog,13512,33780.0,3.8,Very smooth journey
+PK2026_0033,2026-04-05,April,Sunday,Dubai,Karachi,International,ATR 72,411,53,70,75.71,878,46534,197,Severe,Delayed,Clear,17223,43057.5,3.6,Excellent service
+PK2026_0034,2026-02-21,February,Saturday,London,Islamabad,International,Airbus A320,466,163,180,90.56,161,26243,231,Severe,Delayed,Fog,12708,31770.0,3.7,Delayed but comfortable
+PK2026_0035,2026-01-11,January,Sunday,Karachi,Lahore,Domestic,Boeing 777,170,308,350,88.0,1451,446908,200,Severe,Delayed,Rain,10882,27205.0,4.1,Good experience
+PK2026_0036,2026-11-11,November,Wednesday,Karachi,Kuala Lumpur,International,Boeing 737,478,156,160,97.5,1235,192660,102,Moderate,Delayed,Rain,13405,33512.5,4.3,Good experience
+PK2026_0037,2026-05-23,May,Saturday,Dubai,Lahore,International,Boeing 777,333,286,350,81.71,397,113542,72,Moderate,Delayed,Storm,10105,25262.5,2.6,Poor service
+PK2026_0038,2026-08-31,August,Monday,Lahore,Islamabad,Domestic,Boeing 777,309,235,350,67.14,314,73790,139,Severe,Delayed,Storm,17259,43147.5,2.8,Good experience
+PK2026_0039,2026-05-27,May,Wednesday,Kuala Lumpur,London,International,Boeing 737,265,99,160,61.88,1388,137412,114,Moderate,Delayed,Rain,13624,34060.0,2.8,Very smooth journey
+PK2026_0040,2026-02-03,February,Tuesday,Kuala Lumpur,London,International,Boeing 777,272,311,350,88.86,1442,448462,67,Moderate,Delayed,Fog,15011,37527.5,3.5,Good experience
+PK2026_0041,2026-12-24,December,Thursday,London,Doha,International,Boeing 777,129,332,350,94.86,135,44820,94,Moderate,Delayed,Clear,14965,37412.5,4.2,Excellent service
+PK2026_0042,2026-11-16,November,Monday,Dubai,Kuala Lumpur,International,ATR 72,126,64,70,91.43,796,50944,148,Severe,Delayed,Fog,8312,20780.0,4.0,Excellent service
+PK2026_0043,2026-03-22,March,Sunday,Jeddah,Islamabad,International,Boeing 737,473,96,160,60.0,760,72960,223,Severe,Delayed,Storm,11594,28985.0,3.8,Good experience
+PK2026_0044,2026-01-01,January,Thursday,Dubai,Kuala Lumpur,International,ATR 72,342,45,70,64.29,335,15075,51,Moderate,Delayed,Rain,15854,39635.0,4.1,Very smooth journey
+PK2026_0045,2026-03-26,March,Thursday,Doha,Dubai,International,Airbus A320,237,148,180,82.22,1118,165464,15,Minor,On Time,Storm,11601,29002.5,4.0,Delayed but comfortable
+PK2026_0046,2026-01-22,January,Thursday,Karachi,Islamabad,Domestic,Boeing 777,378,195,350,55.71,1269,247455,29,Minor,Delayed,Rain,19985,49962.5,2.6,Average flight
+PK2026_0047,2026-05-02,May,Saturday,Doha,Lahore,International,Airbus A320,411,107,180,59.44,853,91271,69,Moderate,Delayed,Fog,17209,43022.5,3.0,Excellent service
+PK2026_0048,2026-07-05,July,Sunday,Islamabad,London,International,Boeing 777,433,290,350,82.86,638,185020,13,Minor,On Time,Clear,19154,47885.0,2.8,Poor service
+PK2026_0049,2026-05-25,May,Monday,Karachi,Doha,International,Boeing 777,224,271,350,77.43,1301,352571,89,Moderate,Delayed,Storm,4276,10690.0,3.4,Poor service
+PK2026_0050,2026-08-23,August,Sunday,Lahore,Jeddah,International,Boeing 777,366,234,350,66.86,817,191178,113,Moderate,Delayed,Storm,16271,40677.5,3.5,Poor service
+PK2026_0051,2026-05-24,May,Sunday,Doha,Kuala Lumpur,International,ATR 72,393,59,70,84.29,1056,62304,86,Moderate,Delayed,Fog,4175,10437.5,3.7,Excellent service
+PK2026_0052,2026-11-10,November,Tuesday,Dubai,London,International,Boeing 737,221,99,160,61.88,1498,148302,114,Moderate,Delayed,Storm,15688,39220.0,3.3,Excellent service
+PK2026_0053,2026-05-03,May,Sunday,Islamabad,Lahore,Domestic,ATR 72,435,55,70,78.57,983,54065,117,Moderate,Delayed,Storm,5332,13330.0,3.0,Very smooth journey
+PK2026_0054,2026-03-14,March,Saturday,London,Doha,International,Boeing 777,354,258,350,73.71,717,184986,71,Moderate,Delayed,Clear,9280,23200.0,2.7,Excellent service
+PK2026_0055,2026-04-14,April,Tuesday,Dubai,Jeddah,International,Airbus A320,480,115,180,63.89,907,104305,193,Severe,Delayed,Fog,14154,35385.0,2.6,Delayed but comfortable
+PK2026_0056,2026-10-10,October,Saturday,Dubai,Lahore,International,Boeing 737,428,96,160,60.0,970,93120,127,Severe,Delayed,Storm,18417,46042.5,3.6,Delayed but comfortable
+PK2026_0057,2026-02-27,February,Friday,Karachi,Jeddah,International,Boeing 777,124,282,350,80.57,1407,396774,154,Severe,Delayed,Fog,15696,39240.0,4.9,Poor service
+PK2026_0058,2026-12-12,December,Saturday,Jeddah,Kuala Lumpur,International,ATR 72,476,55,70,78.57,532,29260,10,Minor,On Time,Rain,15660,39150.0,4.0,Good experience
+PK2026_0059,2026-06-01,June,Monday,Kuala Lumpur,Lahore,International,Boeing 737,255,89,160,55.62,136,12104,200,Severe,Delayed,Clear,8002,20005.0,4.2,Poor service
+PK2026_0060,2026-03-02,March,Monday,Lahore,Doha,International,Boeing 737,151,96,160,60.0,232,22272,144,Severe,Delayed,Fog,10223,25557.5,4.1,Average flight
+PK2026_0061,2026-09-20,September,Sunday,London,Islamabad,International,ATR 72,465,59,70,84.29,1212,71508,18,Minor,Delayed,Storm,6385,15962.5,3.6,Poor service
+PK2026_0062,2026-02-05,February,Thursday,Kuala Lumpur,Lahore,International,Boeing 777,437,178,350,50.86,905,161090,9,Minor,On Time,Fog,18387,45967.5,3.8,Average flight
+PK2026_0063,2026-02-17,February,Tuesday,Islamabad,London,International,Boeing 737,344,154,160,96.25,177,27258,230,Severe,Delayed,Clear,16043,40107.5,3.0,Delayed but comfortable
+PK2026_0064,2026-12-04,December,Friday,Doha,Islamabad,International,ATR 72,90,58,70,82.86,148,8584,228,Severe,Delayed,Rain,3116,7790.0,4.6,Average flight
+PK2026_0065,2026-04-27,April,Monday,Karachi,Dubai,International,Airbus A320,388,118,180,65.56,901,106318,188,Severe,Delayed,Fog,13636,34090.0,4.2,Very smooth journey
+PK2026_0066,2026-09-22,September,Tuesday,Kuala Lumpur,Islamabad,International,Boeing 777,119,182,350,52.0,618,112476,46,Moderate,Delayed,Clear,18017,45042.5,3.2,Good experience
+PK2026_0067,2026-08-21,August,Friday,Doha,Islamabad,International,Boeing 777,112,179,350,51.14,619,110801,54,Moderate,Delayed,Rain,15522,38805.0,3.2,Average flight
+PK2026_0068,2026-02-26,February,Thursday,Lahore,Doha,International,Boeing 777,85,225,350,64.29,959,215775,130,Severe,Delayed,Clear,14772,36930.0,3.8,Poor service
+PK2026_0069,2026-06-21,June,Sunday,London,Dubai,International,Boeing 777,76,278,350,79.43,829,230462,189,Severe,Delayed,Clear,12013,30032.5,4.2,Average flight
+PK2026_0070,2026-02-03,February,Tuesday,London,Jeddah,International,Boeing 737,112,83,160,51.88,741,61503,50,Moderate,Delayed,Storm,19635,49087.5,4.4,Good experience
+PK2026_0071,2026-03-03,March,Tuesday,Karachi,Dubai,International,Boeing 777,440,324,350,92.57,375,121500,52,Moderate,Delayed,Clear,8165,20412.5,3.4,Good experience
+PK2026_0072,2026-01-09,January,Friday,Lahore,Dubai,International,Airbus A320,473,166,180,92.22,366,60756,5,Minor,On Time,Clear,11939,29847.5,4.3,Good experience
+PK2026_0073,2026-07-27,July,Monday,Jeddah,Kuala Lumpur,International,Boeing 777,419,222,350,63.43,803,178266,18,Minor,Delayed,Storm,19865,49662.5,4.8,Excellent service
+PK2026_0074,2026-04-02,April,Thursday,Kuala Lumpur,Doha,International,ATR 72,263,66,70,94.29,1229,81114,160,Severe,Delayed,Clear,19524,48810.0,3.3,Excellent service
+PK2026_0075,2026-03-03,March,Tuesday,Karachi,Lahore,Domestic,Airbus A320,440,100,180,55.56,1395,139500,51,Moderate,Delayed,Clear,10934,27335.0,3.6,Poor service
+PK2026_0076,2026-08-08,August,Saturday,Jeddah,Doha,International,Boeing 777,190,254,350,72.57,979,248666,133,Severe,Delayed,Fog,5987,14967.5,4.3,Poor service
+PK2026_0077,2026-10-03,October,Saturday,Jeddah,Lahore,International,Boeing 777,302,280,350,80.0,387,108360,67,Moderate,Delayed,Storm,12618,31545.0,4.0,Very smooth journey
+PK2026_0078,2026-04-27,April,Monday,Jeddah,Islamabad,International,Boeing 777,308,236,350,67.43,666,157176,46,Moderate,Delayed,Rain,19704,49260.0,3.3,Average flight
+PK2026_0079,2026-10-03,October,Saturday,Lahore,Doha,International,Airbus A320,125,105,180,58.33,593,62265,171,Severe,Delayed,Storm,7255,18137.5,3.7,Delayed but comfortable
+PK2026_0080,2026-09-23,September,Wednesday,Jeddah,Dubai,International,Boeing 777,114,243,350,69.43,512,124416,186,Severe,Delayed,Rain,9724,24310.0,4.6,Average flight
+PK2026_0081,2026-01-22,January,Thursday,London,Doha,International,Boeing 737,114,129,160,80.62,1211,156219,45,Moderate,Delayed,Rain,19042,47605.0,3.9,Good experience
+PK2026_0082,2026-06-24,June,Wednesday,Jeddah,Kuala Lumpur,International,Boeing 737,312,148,160,92.5,180,26640,183,Severe,Delayed,Storm,12571,31427.5,4.5,Excellent service
+PK2026_0083,2026-03-17,March,Tuesday,Jeddah,Doha,International,Airbus A320,279,177,180,98.33,755,133635,172,Severe,Delayed,Rain,13028,32570.0,2.8,Average flight
+PK2026_0084,2026-02-28,February,Saturday,Lahore,Dubai,International,ATR 72,283,38,70,54.29,1496,56848,49,Moderate,Delayed,Fog,18081,45202.5,3.9,Poor service
+PK2026_0085,2026-09-20,September,Sunday,Jeddah,Dubai,International,ATR 72,177,40,70,57.14,724,28960,19,Minor,Delayed,Rain,17821,44552.5,4.3,Very smooth journey
+PK2026_0086,2026-04-29,April,Wednesday,Dubai,Karachi,International,Airbus A320,94,92,180,51.11,667,61364,9,Minor,On Time,Fog,6636,16590.0,3.8,Poor service
+PK2026_0087,2026-08-16,August,Sunday,Islamabad,Jeddah,International,ATR 72,458,55,70,78.57,185,10175,59,Moderate,Delayed,Fog,4141,10352.5,4.3,Average flight
+PK2026_0088,2026-10-03,October,Saturday,Islamabad,London,International,Boeing 777,402,306,350,87.43,970,296820,230,Severe,Delayed,Fog,3986,9965.0,3.3,Poor service
+PK2026_0089,2026-12-24,December,Thursday,Lahore,Islamabad,Domestic,Airbus A320,129,125,180,69.44,1369,171125,130,Severe,Delayed,Storm,8531,21327.5,3.7,Delayed but comfortable
+PK2026_0090,2026-05-26,May,Tuesday,Lahore,London,International,Boeing 737,397,149,160,93.12,388,57812,51,Moderate,Delayed,Fog,5857,14642.5,3.0,Delayed but comfortable
+PK2026_0091,2026-08-03,August,Monday,Doha,London,International,Airbus A320,332,178,180,98.89,1213,215914,57,Moderate,Delayed,Storm,5041,12602.5,3.8,Very smooth journey
+PK2026_0092,2026-11-08,November,Sunday,Dubai,Islamabad,International,Boeing 737,315,133,160,83.12,291,38703,117,Moderate,Delayed,Clear,18966,47415.0,3.0,Very smooth journey
+PK2026_0093,2026-09-16,September,Wednesday,Dubai,Doha,International,Boeing 737,383,105,160,65.62,1358,142590,153,Severe,Delayed,Storm,18388,45970.0,3.2,Poor service
+PK2026_0094,2026-09-16,September,Wednesday,Doha,London,International,Boeing 737,449,142,160,88.75,902,128084,41,Moderate,Delayed,Clear,6738,16845.0,2.6,Poor service
+PK2026_0095,2026-07-17,July,Friday,London,Islamabad,International,Boeing 777,368,191,350,54.57,405,77355,71,Moderate,Delayed,Clear,18117,45292.5,4.4,Delayed but comfortable
+PK2026_0096,2026-09-29,September,Tuesday,Doha,Jeddah,International,ATR 72,268,67,70,95.71,1244,83348,182,Severe,Delayed,Clear,4835,12087.5,4.3,Average flight
+PK2026_0097,2026-06-04,June,Thursday,Jeddah,Dubai,International,Boeing 777,351,187,350,53.43,391,73117,170,Severe,Delayed,Storm,7737,19342.5,3.9,Delayed but comfortable
+PK2026_0098,2026-12-13,December,Sunday,London,Islamabad,International,Airbus A320,97,172,180,95.56,1493,256796,180,Severe,Delayed,Fog,19606,49015.0,3.0,Excellent service
+PK2026_0099,2026-06-01,June,Monday,Dubai,Lahore,International,Boeing 737,97,127,160,79.38,291,36957,95,Moderate,Delayed,Rain,5169,12922.5,4.9,Poor service
+PK2026_0100,2026-11-27,November,Friday,London,Islamabad,International,ATR 72,422,45,70,64.29,122,5490,172,Severe,Delayed,Clear,16514,41285.0,3.8,Delayed but comfortable
+PK2026_0101,2026-10-09,October,Friday,Jeddah,Karachi,International,Boeing 737,160,122,160,76.25,686,83692,235,Severe,Delayed,Fog,16225,40562.5,4.3,Delayed but comfortable
+PK2026_0102,2026-07-18,July,Saturday,Dubai,London,International,Boeing 737,460,156,160,97.5,1283,200148,148,Severe,Delayed,Clear,6830,17075.0,2.9,Poor service
+PK2026_0103,2026-12-11,December,Friday,Lahore,Dubai,International,Airbus A320,77,168,180,93.33,705,118440,89,Moderate,Delayed,Rain,7828,19570.0,3.1,Delayed but comfortable
+PK2026_0104,2026-03-06,March,Friday,Doha,Karachi,International,Airbus A320,324,172,180,95.56,601,103372,94,Moderate,Delayed,Fog,17024,42560.0,3.8,Very smooth journey
+PK2026_0105,2026-09-04,September,Friday,Kuala Lumpur,Islamabad,International,Boeing 777,216,300,350,85.71,875,262500,208,Severe,Delayed,Storm,9027,22567.5,4.5,Good experience
+PK2026_0106,2026-03-31,March,Tuesday,Karachi,Dubai,International,Boeing 737,252,155,160,96.88,632,97960,17,Minor,Delayed,Rain,13163,32907.5,3.5,Good experience
+PK2026_0107,2026-02-22,February,Sunday,Lahore,Karachi,Domestic,Airbus A320,257,123,180,68.33,1469,180687,172,Severe,Delayed,Storm,8103,20257.5,4.7,Very smooth journey
+PK2026_0108,2026-12-30,December,Wednesday,Jeddah,Islamabad,International,Boeing 737,381,144,160,90.0,1422,204768,130,Severe,Delayed,Clear,15839,39597.5,2.5,Very smooth journey
+PK2026_0109,2026-11-02,November,Monday,Karachi,Lahore,Domestic,Airbus A320,157,171,180,95.0,1259,215289,9,Minor,On Time,Fog,8442,21105.0,4.6,Average flight
+PK2026_0110,2026-11-29,November,Sunday,Lahore,Dubai,International,Airbus A320,397,124,180,68.89,1059,131316,101,Moderate,Delayed,Storm,7866,19665.0,4.3,Very smooth journey
+PK2026_0111,2026-01-30,January,Friday,Islamabad,Kuala Lumpur,International,Boeing 737,222,154,160,96.25,1389,213906,7,Minor,On Time,Fog,19808,49520.0,4.8,Poor service
+PK2026_0112,2026-09-08,September,Tuesday,London,Karachi,International,Boeing 737,235,139,160,86.88,1355,188345,123,Severe,Delayed,Clear,16097,40242.5,4.6,Delayed but comfortable
+PK2026_0113,2026-04-25,April,Saturday,Islamabad,Kuala Lumpur,International,ATR 72,96,42,70,60.0,215,9030,106,Moderate,Delayed,Clear,6773,16932.5,4.0,Excellent service
+PK2026_0114,2026-03-30,March,Monday,Islamabad,Jeddah,International,Boeing 777,229,285,350,81.43,209,59565,107,Moderate,Delayed,Clear,15430,38575.0,3.0,Average flight
+PK2026_0115,2026-04-17,April,Friday,Doha,Lahore,International,Airbus A320,88,110,180,61.11,413,45430,9,Minor,On Time,Clear,10156,25390.0,4.9,Good experience
+PK2026_0116,2026-01-11,January,Sunday,Lahore,Islamabad,Domestic,ATR 72,412,49,70,70.0,1258,61642,140,Severe,Delayed,Clear,8197,20492.5,4.5,Poor service
+PK2026_0117,2026-05-08,May,Friday,Kuala Lumpur,Doha,International,Boeing 777,279,207,350,59.14,1043,215901,34,Moderate,Delayed,Storm,12680,31700.0,4.0,Poor service
+PK2026_0118,2026-08-08,August,Saturday,Dubai,Kuala Lumpur,International,Airbus A320,188,164,180,91.11,138,22632,144,Severe,Delayed,Rain,16064,40160.0,4.4,Good experience
+PK2026_0119,2026-07-09,July,Thursday,Jeddah,Doha,International,ATR 72,350,41,70,58.57,388,15908,181,Severe,Delayed,Storm,7560,18900.0,3.6,Excellent service
+PK2026_0120,2026-06-18,June,Thursday,Lahore,Jeddah,International,Boeing 737,98,100,160,62.5,1223,122300,37,Moderate,Delayed,Fog,11616,29040.0,2.8,Poor service
+PK2026_0121,2026-04-24,April,Friday,Doha,Jeddah,International,Boeing 737,103,146,160,91.25,807,117822,214,Severe,Delayed,Clear,15450,38625.0,4.4,Good experience
+PK2026_0122,2026-05-25,May,Monday,Islamabad,London,International,Boeing 737,282,90,160,56.25,1130,101700,173,Severe,Delayed,Rain,4235,10587.5,3.4,Delayed but comfortable
+PK2026_0123,2026-03-19,March,Thursday,Jeddah,London,International,Boeing 777,416,346,350,98.86,762,263652,85,Moderate,Delayed,Rain,8977,22442.5,2.9,Good experience
+PK2026_0124,2026-11-14,November,Saturday,Karachi,Lahore,Domestic,Boeing 737,320,145,160,90.62,739,107155,174,Severe,Delayed,Clear,4140,10350.0,2.6,Poor service
+PK2026_0125,2026-05-08,May,Friday,Jeddah,London,International,ATR 72,195,61,70,87.14,1412,86132,100,Moderate,Delayed,Fog,14965,37412.5,2.9,Good experience
+PK2026_0126,2026-07-05,July,Sunday,Islamabad,Lahore,Domestic,Boeing 737,209,114,160,71.25,956,108984,209,Severe,Delayed,Clear,10246,25615.0,3.0,Poor service
+PK2026_0127,2026-07-26,July,Sunday,Dubai,Karachi,International,ATR 72,479,53,70,75.71,1173,62169,116,Moderate,Delayed,Fog,10889,27222.5,4.5,Poor service
+PK2026_0128,2026-02-16,February,Monday,Islamabad,Karachi,Domestic,ATR 72,280,54,70,77.14,491,26514,106,Moderate,Delayed,Storm,16322,40805.0,3.3,Excellent service
+PK2026_0129,2026-12-04,December,Friday,Kuala Lumpur,Doha,International,Airbus A320,143,140,180,77.78,788,110320,7,Minor,On Time,Storm,7427,18567.5,4.1,Average flight
+PK2026_0130,2026-12-11,December,Friday,Doha,Dubai,International,Airbus A320,224,152,180,84.44,820,124640,193,Severe,Delayed,Rain,11317,28292.5,3.6,Delayed but comfortable
+PK2026_0131,2026-03-25,March,Wednesday,Jeddah,Doha,International,Airbus A320,317,150,180,83.33,1070,160500,83,Moderate,Delayed,Storm,4053,10132.5,3.6,Delayed but comfortable
+PK2026_0132,2026-08-18,August,Tuesday,Islamabad,Jeddah,International,ATR 72,87,37,70,52.86,1383,51171,18,Minor,Delayed,Fog,9930,24825.0,3.6,Delayed but comfortable
+PK2026_0133,2026-09-23,September,Wednesday,Islamabad,Doha,International,Airbus A320,318,174,180,96.67,400,69600,10,Minor,On Time,Clear,5191,12977.5,3.4,Very smooth journey
+PK2026_0134,2026-09-05,September,Saturday,Kuala Lumpur,Jeddah,International,Airbus A320,188,147,180,81.67,1250,183750,191,Severe,Delayed,Clear,4987,12467.5,2.9,Very smooth journey
+PK2026_0135,2026-11-09,November,Monday,Islamabad,London,International,Boeing 777,473,316,350,90.29,835,263860,237,Severe,Delayed,Clear,3502,8755.0,3.4,Average flight
+PK2026_0136,2026-11-05,November,Thursday,Karachi,Jeddah,International,Boeing 737,246,99,160,61.88,455,45045,134,Severe,Delayed,Rain,8070,20175.0,4.3,Poor service
+PK2026_0137,2026-10-23,October,Friday,Karachi,Islamabad,Domestic,Airbus A320,280,148,180,82.22,685,101380,221,Severe,Delayed,Fog,3138,7845.0,2.9,Good experience
+PK2026_0138,2026-11-04,November,Wednesday,Karachi,Islamabad,Domestic,ATR 72,110,40,70,57.14,284,11360,115,Moderate,Delayed,Storm,9890,24725.0,3.5,Average flight
+PK2026_0139,2026-06-21,June,Sunday,Jeddah,Dubai,International,ATR 72,314,47,70,67.14,998,46906,157,Severe,Delayed,Storm,15363,38407.5,4.6,Good experience
+PK2026_0140,2026-08-12,August,Wednesday,Jeddah,Doha,International,ATR 72,447,67,70,95.71,1363,91321,143,Severe,Delayed,Fog,19671,49177.5,3.0,Excellent service
+PK2026_0141,2026-01-12,January,Monday,Karachi,Lahore,Domestic,Airbus A320,211,158,180,87.78,128,20224,25,Minor,Delayed,Rain,11038,27595.0,3.2,Excellent service
+PK2026_0142,2026-10-21,October,Wednesday,Lahore,Kuala Lumpur,International,ATR 72,432,47,70,67.14,1365,64155,44,Moderate,Delayed,Storm,13415,33537.5,4.2,Poor service
+PK2026_0143,2026-01-26,January,Monday,Dubai,Lahore,International,ATR 72,303,38,70,54.29,905,34390,91,Moderate,Delayed,Storm,7964,19910.0,4.6,Excellent service
+PK2026_0144,2026-08-17,August,Monday,Jeddah,Dubai,International,ATR 72,236,47,70,67.14,258,12126,173,Severe,Delayed,Rain,7802,19505.0,4.8,Very smooth journey
+PK2026_0145,2026-03-16,March,Monday,Lahore,Jeddah,International,Airbus A320,468,132,180,73.33,666,87912,17,Minor,Delayed,Storm,4746,11865.0,4.5,Very smooth journey
+PK2026_0146,2026-10-13,October,Tuesday,Karachi,Kuala Lumpur,International,ATR 72,97,58,70,82.86,1373,79634,180,Severe,Delayed,Storm,19478,48695.0,3.5,Very smooth journey
+PK2026_0147,2026-12-27,December,Sunday,Kuala Lumpur,Jeddah,International,Airbus A320,180,116,180,64.44,635,73660,210,Severe,Delayed,Storm,9145,22862.5,4.7,Poor service
+PK2026_0148,2026-06-04,June,Thursday,London,Doha,International,Airbus A320,231,114,180,63.33,900,102600,62,Moderate,Delayed,Rain,19221,48052.5,4.8,Delayed but comfortable
+PK2026_0149,2026-09-06,September,Sunday,London,Islamabad,International,Boeing 737,356,137,160,85.62,202,27674,61,Moderate,Delayed,Storm,16442,41105.0,4.1,Average flight
+PK2026_0150,2026-05-23,May,Saturday,Dubai,Karachi,International,Airbus A320,103,120,180,66.67,1213,145560,74,Moderate,Delayed,Rain,12828,32070.0,4.3,Poor service
+PK2026_0151,2026-03-09,March,Monday,London,Karachi,International,Airbus A320,442,91,180,50.56,767,69797,148,Severe,Delayed,Fog,19930,49825.0,4.1,Excellent service
+PK2026_0152,2026-05-01,May,Friday,Dubai,Lahore,International,Airbus A320,166,95,180,52.78,401,38095,100,Moderate,Delayed,Clear,12096,30240.0,2.6,Good experience
+PK2026_0153,2026-12-28,December,Monday,Dubai,Lahore,International,Boeing 737,413,105,160,65.62,897,94185,64,Moderate,Delayed,Clear,13254,33135.0,3.1,Very smooth journey
+PK2026_0154,2026-12-08,December,Tuesday,Islamabad,Doha,International,Boeing 777,259,316,350,90.29,370,116920,35,Moderate,Delayed,Clear,14023,35057.5,4.7,Delayed but comfortable
+PK2026_0155,2026-05-23,May,Saturday,Kuala Lumpur,Dubai,International,Boeing 777,446,206,350,58.86,974,200644,179,Severe,Delayed,Fog,12529,31322.5,4.4,Excellent service
+PK2026_0156,2026-01-09,January,Friday,London,Karachi,International,Airbus A320,70,133,180,73.89,426,56658,172,Severe,Delayed,Rain,14517,36292.5,3.0,Good experience
+PK2026_0157,2026-07-21,July,Tuesday,Kuala Lumpur,Islamabad,International,Boeing 777,470,229,350,65.43,1070,245030,210,Severe,Delayed,Fog,3276,8190.0,2.6,Delayed but comfortable
+PK2026_0158,2026-10-11,October,Sunday,Dubai,Doha,International,ATR 72,86,47,70,67.14,1158,54426,71,Moderate,Delayed,Fog,18460,46150.0,3.6,Very smooth journey
+PK2026_0159,2026-01-08,January,Thursday,Doha,Karachi,International,Boeing 737,400,105,160,65.62,319,33495,174,Severe,Delayed,Fog,12262,30655.0,2.6,Average flight
+PK2026_0160,2026-01-05,January,Monday,Jeddah,Islamabad,International,Airbus A320,109,163,180,90.56,235,38305,107,Moderate,Delayed,Storm,13888,34720.0,3.3,Poor service
+PK2026_0161,2026-06-29,June,Monday,Lahore,Jeddah,International,Airbus A320,348,145,180,80.56,230,33350,237,Severe,Delayed,Fog,14788,36970.0,3.8,Delayed but comfortable
+PK2026_0162,2026-04-12,April,Sunday,Kuala Lumpur,London,International,ATR 72,134,65,70,92.86,228,14820,69,Moderate,Delayed,Rain,17982,44955.0,3.1,Poor service
+PK2026_0163,2026-08-16,August,Sunday,Islamabad,Kuala Lumpur,International,Boeing 737,323,128,160,80.0,1336,171008,208,Severe,Delayed,Storm,12732,31830.0,3.3,Average flight
+PK2026_0164,2026-11-23,November,Monday,Lahore,Karachi,Domestic,Boeing 777,382,317,350,90.57,1495,473915,95,Moderate,Delayed,Storm,15088,37720.0,4.4,Good experience
+PK2026_0165,2026-03-23,March,Monday,Karachi,London,International,Airbus A320,431,159,180,88.33,1083,172197,192,Severe,Delayed,Rain,8549,21372.5,4.5,Average flight
+PK2026_0166,2026-04-11,April,Saturday,Kuala Lumpur,Doha,International,Airbus A320,247,114,180,63.33,653,74442,56,Moderate,Delayed,Storm,10799,26997.5,3.8,Poor service
+PK2026_0167,2026-09-14,September,Monday,Dubai,Lahore,International,Airbus A320,245,99,180,55.0,1196,118404,87,Moderate,Delayed,Clear,19411,48527.5,4.2,Average flight
+PK2026_0168,2026-04-08,April,Wednesday,Dubai,Jeddah,International,Airbus A320,239,168,180,93.33,1197,201096,40,Moderate,Delayed,Clear,17682,44205.0,2.6,Average flight
+PK2026_0169,2026-09-08,September,Tuesday,Kuala Lumpur,Doha,International,Boeing 777,117,214,350,61.14,1304,279056,188,Severe,Delayed,Fog,15970,39925.0,3.5,Delayed but comfortable
+PK2026_0170,2026-02-13,February,Friday,Lahore,London,International,ATR 72,243,35,70,50.0,984,34440,52,Moderate,Delayed,Storm,15438,38595.0,4.3,Poor service
+PK2026_0171,2026-08-18,August,Tuesday,Jeddah,Dubai,International,Airbus A320,441,126,180,70.0,287,36162,189,Severe,Delayed,Fog,13027,32567.5,3.3,Delayed but comfortable
+PK2026_0172,2026-06-29,June,Monday,Jeddah,Islamabad,International,Airbus A320,384,150,180,83.33,318,47700,164,Severe,Delayed,Fog,17413,43532.5,3.5,Delayed but comfortable
+PK2026_0173,2026-11-22,November,Sunday,Islamabad,Karachi,Domestic,ATR 72,473,55,70,78.57,929,51095,207,Severe,Delayed,Clear,12727,31817.5,4.4,Average flight
+PK2026_0174,2026-03-25,March,Wednesday,Dubai,Doha,International,ATR 72,362,46,70,65.71,807,37122,141,Severe,Delayed,Clear,5011,12527.5,4.4,Average flight
+PK2026_0175,2026-03-25,March,Wednesday,Karachi,London,International,Airbus A320,443,119,180,66.11,1218,144942,125,Severe,Delayed,Clear,11771,29427.5,2.7,Delayed but comfortable
+PK2026_0176,2026-07-23,July,Thursday,Doha,Jeddah,International,Boeing 737,384,140,160,87.5,138,19320,16,Minor,Delayed,Fog,6013,15032.5,2.9,Excellent service
+PK2026_0177,2026-06-25,June,Thursday,London,Lahore,International,Boeing 777,239,229,350,65.43,893,204497,8,Minor,On Time,Storm,8441,21102.5,4.3,Average flight
+PK2026_0178,2026-10-19,October,Monday,Lahore,London,International,Boeing 777,138,230,350,65.71,1246,286580,4,Minor,On Time,Storm,6070,15175.0,4.4,Very smooth journey
+PK2026_0179,2026-01-13,January,Tuesday,Kuala Lumpur,London,International,Boeing 737,233,128,160,80.0,808,103424,190,Severe,Delayed,Rain,3778,9445.0,2.8,Good experience
+PK2026_0180,2026-01-19,January,Monday,Islamabad,Karachi,Domestic,Boeing 777,123,300,350,85.71,426,127800,143,Severe,Delayed,Rain,5470,13675.0,4.3,Good experience
+PK2026_0181,2026-10-16,October,Friday,Lahore,Dubai,International,Airbus A320,374,156,180,86.67,213,33228,234,Severe,Delayed,Fog,8547,21367.5,3.4,Average flight
+PK2026_0182,2026-03-31,March,Tuesday,Karachi,Jeddah,International,Airbus A320,347,115,180,63.89,1364,156860,149,Severe,Delayed,Storm,11395,28487.5,2.7,Average flight
+PK2026_0183,2026-08-11,August,Tuesday,Jeddah,Islamabad,International,Airbus A320,418,124,180,68.89,1337,165788,167,Severe,Delayed,Storm,19104,47760.0,3.3,Poor service
+PK2026_0184,2026-08-11,August,Tuesday,Doha,Jeddah,International,ATR 72,411,66,70,94.29,726,47916,78,Moderate,Delayed,Clear,13128,32820.0,4.9,Average flight
+PK2026_0185,2026-06-06,June,Saturday,Jeddah,Islamabad,International,Airbus A320,179,164,180,91.11,977,160228,39,Moderate,Delayed,Fog,10987,27467.5,3.6,Delayed but comfortable
+PK2026_0186,2026-04-13,April,Monday,Islamabad,Dubai,International,ATR 72,372,54,70,77.14,1270,68580,171,Severe,Delayed,Fog,16082,40205.0,3.0,Good experience
+PK2026_0187,2026-09-03,September,Thursday,Jeddah,Karachi,International,Boeing 777,346,281,350,80.29,508,142748,217,Severe,Delayed,Rain,14980,37450.0,3.1,Excellent service
+PK2026_0188,2026-11-28,November,Saturday,Karachi,Dubai,International,Boeing 737,278,90,160,56.25,1351,121590,3,Minor,On Time,Storm,14073,35182.5,4.2,Poor service
+PK2026_0189,2026-12-23,December,Wednesday,Jeddah,Lahore,International,Boeing 737,416,96,160,60.0,513,49248,77,Moderate,Delayed,Clear,15311,38277.5,3.7,Excellent service
+PK2026_0190,2026-01-06,January,Tuesday,Jeddah,Lahore,International,Boeing 737,406,109,160,68.12,1083,118047,178,Severe,Delayed,Fog,8923,22307.5,2.6,Good experience
+PK2026_0191,2026-11-07,November,Saturday,Karachi,London,International,ATR 72,167,58,70,82.86,311,18038,166,Severe,Delayed,Clear,16174,40435.0,3.5,Poor service
+PK2026_0192,2026-03-14,March,Saturday,Jeddah,Karachi,International,Boeing 737,463,154,160,96.25,1463,225302,116,Moderate,Delayed,Rain,8592,21480.0,2.8,Delayed but comfortable
+PK2026_0193,2026-07-25,July,Saturday,Karachi,Dubai,International,Boeing 737,322,122,160,76.25,901,109922,0,No Delay,On Time,Clear,6854,17135.0,2.6,Excellent service
+PK2026_0194,2026-04-21,April,Tuesday,London,Kuala Lumpur,International,Boeing 737,192,145,160,90.62,630,91350,131,Severe,Delayed,Rain,14934,37335.0,3.4,Good experience
+PK2026_0195,2026-03-26,March,Thursday,Lahore,Islamabad,Domestic,Airbus A320,66,177,180,98.33,831,147087,237,Severe,Delayed,Fog,13649,34122.5,4.4,Average flight
+PK2026_0196,2026-04-14,April,Tuesday,Karachi,London,International,ATR 72,235,36,70,51.43,863,31068,201,Severe,Delayed,Fog,12396,30990.0,4.2,Poor service
+PK2026_0197,2026-05-14,May,Thursday,Kuala Lumpur,Islamabad,International,ATR 72,85,47,70,67.14,1013,47611,238,Severe,Delayed,Clear,9293,23232.5,5.0,Average flight
+PK2026_0198,2026-07-18,July,Saturday,London,Dubai,International,Boeing 777,61,240,350,68.57,1378,330720,237,Severe,Delayed,Storm,7585,18962.5,4.8,Poor service
+PK2026_0199,2026-01-14,January,Wednesday,Jeddah,Karachi,International,Airbus A320,476,94,180,52.22,437,41078,24,Minor,Delayed,Clear,13752,34380.0,4.8,Excellent service
+PK2026_0200,2026-05-16,May,Saturday,Karachi,London,International,Boeing 737,264,90,160,56.25,1017,91530,221,Severe,Delayed,Rain,13309,33272.5,3.1,Very smooth journey
+PK2026_0201,2026-09-24,September,Thursday,Dubai,Doha,International,ATR 72,400,55,70,78.57,461,25355,135,Severe,Delayed,Storm,7749,19372.5,4.0,Delayed but comfortable
+PK2026_0202,2026-12-07,December,Monday,Kuala Lumpur,Karachi,International,Boeing 777,104,178,350,50.86,650,115700,83,Moderate,Delayed,Clear,19634,49085.0,3.2,Delayed but comfortable
+PK2026_0203,2026-06-06,June,Saturday,Lahore,Dubai,International,ATR 72,445,63,70,90.0,357,22491,79,Moderate,Delayed,Clear,4317,10792.5,4.4,Good experience
+PK2026_0204,2026-10-07,October,Wednesday,Karachi,London,International,ATR 72,232,55,70,78.57,480,26400,66,Moderate,Delayed,Clear,7204,18010.0,4.4,Excellent service
+PK2026_0205,2026-10-19,October,Monday,Islamabad,Karachi,Domestic,Boeing 777,435,345,350,98.57,1427,492315,237,Severe,Delayed,Storm,4251,10627.5,3.5,Delayed but comfortable
+PK2026_0206,2026-08-01,August,Saturday,Islamabad,Lahore,Domestic,Airbus A320,419,112,180,62.22,1143,128016,116,Moderate,Delayed,Clear,6786,16965.0,3.2,Average flight
+PK2026_0207,2026-01-12,January,Monday,Lahore,Dubai,International,Boeing 777,377,280,350,80.0,428,119840,24,Minor,Delayed,Storm,14345,35862.5,3.2,Average flight
+PK2026_0208,2026-04-20,April,Monday,Kuala Lumpur,Lahore,International,Airbus A320,296,134,180,74.44,1411,189074,9,Minor,On Time,Clear,12928,32320.0,3.8,Very smooth journey
+PK2026_0209,2026-11-16,November,Monday,Islamabad,Jeddah,International,Boeing 777,287,198,350,56.57,1461,289278,26,Minor,Delayed,Rain,10795,26987.5,3.5,Delayed but comfortable
+PK2026_0210,2026-11-06,November,Friday,Kuala Lumpur,Doha,International,Boeing 777,239,258,350,73.71,1338,345204,113,Moderate,Delayed,Clear,9493,23732.5,4.1,Very smooth journey
+PK2026_0211,2026-10-19,October,Monday,Islamabad,Lahore,Domestic,Boeing 777,399,178,350,50.86,707,125846,173,Severe,Delayed,Rain,11586,28965.0,2.6,Very smooth journey
+PK2026_0212,2026-10-28,October,Wednesday,Doha,Lahore,International,Boeing 737,320,149,160,93.12,926,137974,72,Moderate,Delayed,Storm,9704,24260.0,3.6,Good experience
+PK2026_0213,2026-12-31,December,Thursday,London,Islamabad,International,Boeing 737,417,135,160,84.38,508,68580,207,Severe,Delayed,Clear,10079,25197.5,2.5,Delayed but comfortable
+PK2026_0214,2026-03-16,March,Monday,Islamabad,Jeddah,International,Airbus A320,319,98,180,54.44,1075,105350,226,Severe,Delayed,Clear,7444,18610.0,4.2,Average flight
+PK2026_0215,2026-06-24,June,Wednesday,Doha,Lahore,International,Airbus A320,245,174,180,96.67,907,157818,138,Severe,Delayed,Clear,11591,28977.5,3.7,Average flight
+PK2026_0216,2026-06-15,June,Monday,Kuala Lumpur,Dubai,International,Airbus A320,130,130,180,72.22,828,107640,59,Moderate,Delayed,Storm,3066,7665.0,4.8,Very smooth journey
+PK2026_0217,2026-02-13,February,Friday,Doha,Karachi,International,Boeing 737,67,92,160,57.5,239,21988,202,Severe,Delayed,Rain,12267,30667.5,3.4,Very smooth journey
+PK2026_0218,2026-01-26,January,Monday,Doha,Kuala Lumpur,International,ATR 72,437,55,70,78.57,1024,56320,153,Severe,Delayed,Clear,16465,41162.5,4.2,Delayed but comfortable
+PK2026_0219,2026-12-28,December,Monday,Dubai,Islamabad,International,ATR 72,169,61,70,87.14,874,53314,235,Severe,Delayed,Rain,7149,17872.5,3.9,Very smooth journey
+PK2026_0220,2026-06-27,June,Saturday,Dubai,Jeddah,International,Boeing 737,93,145,160,90.62,1119,162255,57,Moderate,Delayed,Storm,4031,10077.5,3.0,Average flight
+PK2026_0221,2026-01-09,January,Friday,Dubai,Lahore,International,Airbus A320,364,173,180,96.11,1371,237183,47,Moderate,Delayed,Rain,17526,43815.0,4.5,Average flight
+PK2026_0222,2026-06-10,June,Wednesday,London,Islamabad,International,ATR 72,372,61,70,87.14,576,35136,35,Moderate,Delayed,Rain,7510,18775.0,3.0,Delayed but comfortable
+PK2026_0223,2026-12-22,December,Tuesday,Dubai,Doha,International,Airbus A320,329,159,180,88.33,1146,182214,117,Moderate,Delayed,Storm,3272,8180.0,3.8,Average flight
+PK2026_0224,2026-05-10,May,Sunday,Doha,Dubai,International,Boeing 737,365,89,160,55.62,574,51086,214,Severe,Delayed,Fog,10816,27040.0,3.2,Poor service
+PK2026_0225,2026-01-03,January,Saturday,Doha,Islamabad,International,ATR 72,135,65,70,92.86,1062,69030,201,Severe,Delayed,Storm,4782,11955.0,4.0,Very smooth journey
+PK2026_0226,2026-09-06,September,Sunday,Dubai,London,International,Boeing 777,192,327,350,93.43,940,307380,109,Moderate,Delayed,Fog,18745,46862.5,2.9,Excellent service
+PK2026_0227,2026-09-11,September,Friday,Dubai,Islamabad,International,ATR 72,314,57,70,81.43,120,6840,55,Moderate,Delayed,Fog,4753,11882.5,2.8,Poor service
+PK2026_0228,2026-04-04,April,Saturday,Islamabad,Doha,International,Boeing 737,358,125,160,78.12,463,57875,56,Moderate,Delayed,Clear,17078,42695.0,3.1,Delayed but comfortable
+PK2026_0229,2026-12-10,December,Thursday,Jeddah,London,International,Boeing 777,462,209,350,59.71,261,54549,237,Severe,Delayed,Rain,5980,14950.0,4.6,Delayed but comfortable
+PK2026_0230,2026-11-01,November,Sunday,Dubai,Lahore,International,ATR 72,270,63,70,90.0,1468,92484,64,Moderate,Delayed,Storm,13607,34017.5,2.8,Average flight
+PK2026_0231,2026-02-12,February,Thursday,Karachi,Jeddah,International,ATR 72,394,55,70,78.57,374,20570,145,Severe,Delayed,Rain,8284,20710.0,3.1,Very smooth journey
+PK2026_0232,2026-01-02,January,Friday,Lahore,Doha,International,Boeing 777,331,291,350,83.14,1442,419622,141,Severe,Delayed,Rain,3168,7920.0,4.1,Good experience
+PK2026_0233,2026-03-07,March,Saturday,Lahore,London,International,ATR 72,317,63,70,90.0,1167,73521,211,Severe,Delayed,Rain,8045,20112.5,3.8,Delayed but comfortable
+PK2026_0234,2026-06-26,June,Friday,Karachi,Lahore,Domestic,Boeing 737,327,117,160,73.12,723,84591,161,Severe,Delayed,Rain,11994,29985.0,2.6,Excellent service
+PK2026_0235,2026-04-10,April,Friday,Lahore,Karachi,Domestic,Boeing 777,360,183,350,52.29,396,72468,239,Severe,Delayed,Storm,11505,28762.5,2.7,Excellent service
+PK2026_0236,2026-11-17,November,Tuesday,Islamabad,Kuala Lumpur,International,Airbus A320,131,139,180,77.22,1222,169858,107,Moderate,Delayed,Fog,12464,31160.0,4.1,Average flight
+PK2026_0237,2026-10-28,October,Wednesday,London,Jeddah,International,ATR 72,81,41,70,58.57,653,26773,136,Severe,Delayed,Fog,16466,41165.0,3.4,Poor service
+PK2026_0238,2026-12-21,December,Monday,Dubai,London,International,Boeing 777,365,221,350,63.14,1105,244205,118,Moderate,Delayed,Clear,5583,13957.5,3.8,Very smooth journey
+PK2026_0239,2026-07-20,July,Monday,Kuala Lumpur,Doha,International,Boeing 777,102,251,350,71.71,727,182477,202,Severe,Delayed,Rain,9530,23825.0,3.7,Average flight
+PK2026_0240,2026-04-18,April,Saturday,Kuala Lumpur,Islamabad,International,Boeing 737,147,82,160,51.25,984,80688,190,Severe,Delayed,Clear,17679,44197.5,2.9,Excellent service
+PK2026_0241,2026-01-05,January,Monday,Doha,Dubai,International,Boeing 777,330,212,350,60.57,515,109180,41,Moderate,Delayed,Storm,13914,34785.0,4.2,Very smooth journey
+PK2026_0242,2026-01-25,January,Sunday,Dubai,Lahore,International,Airbus A320,401,175,180,97.22,1082,189350,224,Severe,Delayed,Clear,19591,48977.5,2.9,Excellent service
+PK2026_0243,2026-06-30,June,Tuesday,Islamabad,Dubai,International,ATR 72,100,56,70,80.0,338,18928,31,Moderate,Delayed,Fog,5050,12625.0,3.7,Excellent service
+PK2026_0244,2026-09-23,September,Wednesday,Jeddah,Lahore,International,Boeing 777,200,179,350,51.14,670,119930,104,Moderate,Delayed,Fog,4149,10372.5,4.3,Excellent service
+PK2026_0245,2026-07-24,July,Friday,Karachi,Islamabad,Domestic,Airbus A320,286,110,180,61.11,452,49720,152,Severe,Delayed,Clear,6986,17465.0,3.2,Poor service
+PK2026_0246,2026-06-06,June,Saturday,Kuala Lumpur,Islamabad,International,ATR 72,186,40,70,57.14,1119,44760,183,Severe,Delayed,Fog,4526,11315.0,2.7,Poor service
+PK2026_0247,2026-01-09,January,Friday,London,Dubai,International,Boeing 777,145,192,350,54.86,966,185472,194,Severe,Delayed,Storm,18295,45737.5,2.9,Excellent service
+PK2026_0248,2026-01-04,January,Sunday,Lahore,Doha,International,Airbus A320,409,145,180,80.56,1333,193285,182,Severe,Delayed,Fog,12338,30845.0,2.7,Average flight
+PK2026_0249,2026-12-08,December,Tuesday,Jeddah,Doha,International,Airbus A320,477,121,180,67.22,1066,128986,37,Moderate,Delayed,Clear,18565,46412.5,2.7,Average flight
+PK2026_0250,2026-03-02,March,Monday,Dubai,London,International,Boeing 777,355,317,350,90.57,474,150258,170,Severe,Delayed,Fog,8135,20337.5,4.9,Excellent service
+PK2026_0251,2026-06-03,June,Wednesday,Doha,Lahore,International,Boeing 777,183,318,350,90.86,983,312594,229,Severe,Delayed,Clear,9591,23977.5,3.4,Delayed but comfortable
+PK2026_0252,2026-12-29,December,Tuesday,Islamabad,Jeddah,International,Boeing 777,186,278,350,79.43,1338,371964,215,Severe,Delayed,Storm,10986,27465.0,3.2,Poor service
+PK2026_0253,2026-07-03,July,Friday,Dubai,Kuala Lumpur,International,ATR 72,298,36,70,51.43,1311,47196,130,Severe,Delayed,Rain,13273,33182.5,4.7,Delayed but comfortable
+PK2026_0254,2026-11-26,November,Thursday,Jeddah,Lahore,International,Boeing 737,279,148,160,92.5,1200,177600,6,Minor,On Time,Rain,18184,45460.0,2.5,Good experience
+PK2026_0255,2026-11-21,November,Saturday,Kuala Lumpur,Lahore,International,Boeing 737,60,100,160,62.5,465,46500,188,Severe,Delayed,Fog,11920,29800.0,4.0,Good experience
+PK2026_0256,2026-08-09,August,Sunday,Lahore,Doha,International,Airbus A320,321,171,180,95.0,515,88065,14,Minor,On Time,Clear,10036,25090.0,3.9,Excellent service
+PK2026_0257,2026-11-23,November,Monday,Kuala Lumpur,Lahore,International,Airbus A320,82,102,180,56.67,463,47226,115,Moderate,Delayed,Fog,14941,37352.5,3.2,Excellent service
+PK2026_0258,2026-08-21,August,Friday,Karachi,Lahore,Domestic,Boeing 777,468,326,350,93.14,1282,417932,28,Minor,Delayed,Rain,7997,19992.5,3.8,Delayed but comfortable
+PK2026_0259,2026-08-19,August,Wednesday,Jeddah,Lahore,International,Boeing 737,194,128,160,80.0,1147,146816,237,Severe,Delayed,Fog,13092,32730.0,3.0,Poor service
+PK2026_0260,2026-05-01,May,Friday,Islamabad,London,International,Boeing 777,114,212,350,60.57,1423,301676,175,Severe,Delayed,Clear,12158,30395.0,2.6,Average flight
+PK2026_0261,2026-04-23,April,Thursday,Doha,London,International,ATR 72,461,63,70,90.0,222,13986,147,Severe,Delayed,Clear,5791,14477.5,3.9,Average flight
+PK2026_0262,2026-06-08,June,Monday,Islamabad,Karachi,Domestic,Boeing 777,368,191,350,54.57,160,30560,214,Severe,Delayed,Clear,14908,37270.0,3.6,Very smooth journey
+PK2026_0263,2026-05-15,May,Friday,Islamabad,Dubai,International,Boeing 737,439,150,160,93.75,586,87900,16,Minor,Delayed,Clear,15351,38377.5,4.1,Delayed but comfortable
+PK2026_0264,2026-07-12,July,Sunday,Lahore,Karachi,Domestic,Boeing 737,416,99,160,61.88,536,53064,235,Severe,Delayed,Clear,9933,24832.5,3.6,Very smooth journey
+PK2026_0265,2026-04-15,April,Wednesday,London,Islamabad,International,Airbus A320,210,134,180,74.44,979,131186,65,Moderate,Delayed,Clear,17232,43080.0,3.8,Poor service
+PK2026_0266,2026-06-18,June,Thursday,Jeddah,Kuala Lumpur,International,Boeing 737,133,158,160,98.75,830,131140,13,Minor,On Time,Storm,12025,30062.5,3.7,Good experience
+PK2026_0267,2026-12-01,December,Tuesday,Karachi,Doha,International,Boeing 737,345,144,160,90.0,816,117504,40,Moderate,Delayed,Clear,6217,15542.5,3.3,Excellent service
+PK2026_0268,2026-03-21,March,Saturday,Lahore,Doha,International,Airbus A320,131,99,180,55.0,792,78408,149,Severe,Delayed,Fog,8037,20092.5,3.8,Very smooth journey
+PK2026_0269,2026-10-04,October,Sunday,Kuala Lumpur,Doha,International,ATR 72,265,54,70,77.14,912,49248,175,Severe,Delayed,Clear,10029,25072.5,4.4,Good experience
+PK2026_0270,2026-11-26,November,Thursday,London,Islamabad,International,Boeing 777,224,350,350,100.0,979,342650,35,Moderate,Delayed,Rain,11488,28720.0,2.8,Excellent service
+PK2026_0271,2026-08-06,August,Thursday,Lahore,Karachi,Domestic,ATR 72,466,36,70,51.43,493,17748,134,Severe,Delayed,Fog,18980,47450.0,3.1,Average flight
+PK2026_0272,2026-09-20,September,Sunday,Dubai,Doha,International,ATR 72,152,38,70,54.29,1224,46512,147,Severe,Delayed,Fog,17836,44590.0,3.9,Average flight
+PK2026_0273,2026-07-20,July,Monday,Lahore,Dubai,International,Boeing 737,286,134,160,83.75,273,36582,20,Minor,Delayed,Clear,13918,34795.0,2.5,Good experience
+PK2026_0274,2026-11-12,November,Thursday,Dubai,Doha,International,Boeing 777,99,339,350,96.86,145,49155,129,Severe,Delayed,Rain,6000,15000.0,4.3,Good experience
+PK2026_0275,2026-02-12,February,Thursday,Jeddah,Lahore,International,ATR 72,427,52,70,74.29,773,40196,213,Severe,Delayed,Rain,9385,23462.5,4.9,Excellent service
+PK2026_0276,2026-05-05,May,Tuesday,Islamabad,Jeddah,International,Boeing 737,164,139,160,86.88,692,96188,225,Severe,Delayed,Clear,17565,43912.5,3.2,Very smooth journey
+PK2026_0277,2026-10-13,October,Tuesday,Jeddah,London,International,Boeing 777,165,319,350,91.14,657,209583,6,Minor,On Time,Storm,18318,45795.0,4.3,Excellent service
+PK2026_0278,2026-08-26,August,Wednesday,London,Islamabad,International,Boeing 777,363,230,350,65.71,600,138000,77,Moderate,Delayed,Storm,11429,28572.5,3.9,Average flight
+PK2026_0279,2026-09-23,September,Wednesday,Jeddah,Doha,International,Boeing 777,379,197,350,56.29,962,189514,120,Moderate,Delayed,Clear,7256,18140.0,4.0,Delayed but comfortable
+PK2026_0280,2026-01-30,January,Friday,Islamabad,Karachi,Domestic,ATR 72,411,54,70,77.14,1065,57510,62,Moderate,Delayed,Clear,14773,36932.5,3.8,Good experience
+PK2026_0281,2026-12-28,December,Monday,Karachi,London,International,Boeing 737,92,102,160,63.75,1164,118728,240,Severe,Delayed,Rain,10648,26620.0,4.0,Very smooth journey
+PK2026_0282,2026-08-04,August,Tuesday,Dubai,Kuala Lumpur,International,Boeing 737,86,150,160,93.75,443,66450,195,Severe,Delayed,Fog,5055,12637.5,3.0,Good experience
+PK2026_0283,2026-01-10,January,Saturday,Islamabad,Jeddah,International,Airbus A320,374,128,180,71.11,718,91904,62,Moderate,Delayed,Fog,10199,25497.5,5.0,Very smooth journey
+PK2026_0284,2026-07-27,July,Monday,Karachi,London,International,Boeing 737,111,131,160,81.88,969,126939,110,Moderate,Delayed,Rain,19218,48045.0,4.8,Good experience
+PK2026_0285,2026-01-22,January,Thursday,Lahore,Dubai,International,Boeing 737,345,151,160,94.38,179,27029,19,Minor,Delayed,Fog,9003,22507.5,4.1,Average flight
+PK2026_0286,2026-05-05,May,Tuesday,Kuala Lumpur,Islamabad,International,Boeing 737,393,119,160,74.38,205,24395,228,Severe,Delayed,Storm,6333,15832.5,3.7,Good experience
+PK2026_0287,2026-05-08,May,Friday,Jeddah,Dubai,International,Boeing 737,188,99,160,61.88,1329,131571,64,Moderate,Delayed,Clear,17407,43517.5,3.0,Delayed but comfortable
+PK2026_0288,2026-10-06,October,Tuesday,Islamabad,Jeddah,International,Airbus A320,252,113,180,62.78,1000,113000,55,Moderate,Delayed,Clear,9490,23725.0,4.4,Average flight
+PK2026_0289,2026-01-02,January,Friday,Lahore,Karachi,Domestic,Boeing 777,231,308,350,88.0,990,304920,39,Moderate,Delayed,Fog,17945,44862.5,4.1,Delayed but comfortable
+PK2026_0290,2026-11-08,November,Sunday,Lahore,London,International,Boeing 777,72,327,350,93.43,170,55590,128,Severe,Delayed,Storm,3630,9075.0,4.5,Average flight
+PK2026_0291,2026-09-03,September,Thursday,Jeddah,Islamabad,International,Boeing 777,261,261,350,74.57,584,152424,217,Severe,Delayed,Clear,18817,47042.5,3.3,Average flight
+PK2026_0292,2026-12-12,December,Saturday,Karachi,Lahore,Domestic,ATR 72,335,53,70,75.71,611,32383,52,Moderate,Delayed,Clear,10425,26062.5,3.8,Good experience
+PK2026_0293,2026-03-28,March,Saturday,Karachi,Islamabad,Domestic,Boeing 737,227,153,160,95.62,499,76347,41,Moderate,Delayed,Storm,19461,48652.5,3.4,Good experience
+PK2026_0294,2026-11-29,November,Sunday,Dubai,Lahore,International,ATR 72,220,61,70,87.14,1041,63501,3,Minor,On Time,Clear,13793,34482.5,3.4,Excellent service
+PK2026_0295,2026-12-27,December,Sunday,Kuala Lumpur,London,International,Boeing 737,381,123,160,76.88,1242,152766,222,Severe,Delayed,Clear,7621,19052.5,2.5,Delayed but comfortable
+PK2026_0296,2026-11-08,November,Sunday,Islamabad,Doha,International,Airbus A320,242,174,180,96.67,378,65772,151,Severe,Delayed,Clear,17966,44915.0,3.1,Very smooth journey
+PK2026_0297,2026-07-03,July,Friday,London,Islamabad,International,Airbus A320,143,136,180,75.56,328,44608,229,Severe,Delayed,Fog,5095,12737.5,4.2,Very smooth journey
+PK2026_0298,2026-12-21,December,Monday,Islamabad,Kuala Lumpur,International,Boeing 777,367,290,350,82.86,1320,382800,9,Minor,On Time,Clear,10465,26162.5,3.7,Good experience
+PK2026_0299,2026-12-14,December,Monday,Jeddah,Islamabad,International,ATR 72,198,58,70,82.86,1358,78764,239,Severe,Delayed,Clear,9725,24312.5,2.7,Good experience
+PK2026_0300,2026-11-02,November,Monday,Doha,London,International,ATR 72,193,36,70,51.43,899,32364,33,Moderate,Delayed,Clear,15817,39542.5,2.6,Delayed but comfortable
+PK2026_0301,2026-03-31,March,Tuesday,Jeddah,Dubai,International,Airbus A320,429,165,180,91.67,1075,177375,225,Severe,Delayed,Rain,19673,49182.5,4.1,Very smooth journey
+PK2026_0302,2026-04-15,April,Wednesday,Lahore,Islamabad,Domestic,Airbus A320,226,99,180,55.0,1367,135333,3,Minor,On Time,Rain,11510,28775.0,3.7,Average flight
+PK2026_0303,2026-08-31,August,Monday,Lahore,Jeddah,International,ATR 72,400,36,70,51.43,1208,43488,144,Severe,Delayed,Fog,17684,44210.0,2.5,Average flight
+PK2026_0304,2026-02-24,February,Tuesday,Karachi,Jeddah,International,Airbus A320,384,164,180,91.11,1270,208280,46,Moderate,Delayed,Clear,7701,19252.5,2.8,Good experience
+PK2026_0305,2026-06-24,June,Wednesday,London,Lahore,International,Airbus A320,236,146,180,81.11,766,111836,108,Moderate,Delayed,Rain,7113,17782.5,3.5,Excellent service
+PK2026_0306,2026-12-12,December,Saturday,Dubai,Lahore,International,ATR 72,134,62,70,88.57,852,52824,90,Moderate,Delayed,Fog,12371,30927.5,3.5,Good experience
+PK2026_0307,2026-06-15,June,Monday,Jeddah,Dubai,International,Boeing 777,305,208,350,59.43,228,47424,150,Severe,Delayed,Fog,18181,45452.5,3.7,Average flight
+PK2026_0308,2026-03-12,March,Thursday,Jeddah,London,International,Boeing 777,122,337,350,96.29,982,330934,20,Minor,Delayed,Fog,11488,28720.0,3.1,Excellent service
+PK2026_0309,2026-11-13,November,Friday,Jeddah,Dubai,International,Boeing 737,343,81,160,50.62,1428,115668,133,Severe,Delayed,Storm,9778,24445.0,4.8,Very smooth journey
+PK2026_0310,2026-09-28,September,Monday,Karachi,London,International,Airbus A320,241,95,180,52.78,1237,117515,115,Moderate,Delayed,Storm,7115,17787.5,3.2,Poor service
+PK2026_0311,2026-03-07,March,Saturday,London,Doha,International,Boeing 777,311,277,350,79.14,861,238497,200,Severe,Delayed,Clear,5547,13867.5,3.6,Average flight
+PK2026_0312,2026-10-26,October,Monday,Islamabad,Kuala Lumpur,International,Boeing 737,480,86,160,53.75,1207,103802,205,Severe,Delayed,Clear,15617,39042.5,4.8,Excellent service
+PK2026_0313,2026-05-29,May,Friday,Lahore,Dubai,International,Boeing 777,99,265,350,75.71,266,70490,195,Severe,Delayed,Rain,8131,20327.5,3.2,Average flight
+PK2026_0314,2026-03-19,March,Thursday,Lahore,Doha,International,Boeing 737,361,89,160,55.62,523,46547,77,Moderate,Delayed,Rain,18567,46417.5,3.1,Poor service
+PK2026_0315,2026-09-11,September,Friday,Lahore,Jeddah,International,Airbus A320,442,123,180,68.33,505,62115,224,Severe,Delayed,Rain,7505,18762.5,3.9,Very smooth journey
+PK2026_0316,2026-01-07,January,Wednesday,Jeddah,Doha,International,Airbus A320,146,137,180,76.11,322,44114,189,Severe,Delayed,Rain,8267,20667.5,4.9,Average flight
+PK2026_0317,2026-12-19,December,Saturday,Dubai,Karachi,International,ATR 72,161,61,70,87.14,777,47397,78,Moderate,Delayed,Clear,6563,16407.5,3.0,Very smooth journey
+PK2026_0318,2026-07-09,July,Thursday,Dubai,Karachi,International,Boeing 777,385,186,350,53.14,437,81282,230,Severe,Delayed,Storm,5332,13330.0,4.8,Excellent service
+PK2026_0319,2026-10-13,October,Tuesday,Dubai,Jeddah,International,Boeing 777,177,242,350,69.14,1134,274428,201,Severe,Delayed,Storm,7669,19172.5,2.8,Excellent service
+PK2026_0320,2026-03-10,March,Tuesday,Lahore,Jeddah,International,Boeing 737,394,106,160,66.25,1013,107378,164,Severe,Delayed,Clear,14244,35610.0,2.5,Average flight
+PK2026_0321,2026-12-05,December,Saturday,Karachi,Jeddah,International,ATR 72,368,70,70,100.0,603,42210,25,Minor,Delayed,Fog,6683,16707.5,2.8,Very smooth journey
+PK2026_0322,2026-06-01,June,Monday,London,Karachi,International,Boeing 777,284,237,350,67.71,138,32706,120,Moderate,Delayed,Clear,19844,49610.0,4.4,Delayed but comfortable
+PK2026_0323,2026-08-26,August,Wednesday,Dubai,Karachi,International,Boeing 777,445,245,350,70.0,824,201880,8,Minor,On Time,Storm,7732,19330.0,3.3,Delayed but comfortable
+PK2026_0324,2026-06-01,June,Monday,Jeddah,Kuala Lumpur,International,ATR 72,451,36,70,51.43,1156,41616,48,Moderate,Delayed,Clear,18956,47390.0,3.6,Excellent service
+PK2026_0325,2026-10-03,October,Saturday,Lahore,Islamabad,Domestic,Boeing 777,372,294,350,84.0,654,192276,201,Severe,Delayed,Storm,6905,17262.5,3.5,Delayed but comfortable
+PK2026_0326,2026-08-27,August,Thursday,Karachi,Jeddah,International,ATR 72,451,51,70,72.86,178,9078,97,Moderate,Delayed,Clear,8165,20412.5,3.5,Average flight
+PK2026_0327,2026-02-15,February,Sunday,London,Kuala Lumpur,International,Airbus A320,96,110,180,61.11,198,21780,118,Moderate,Delayed,Fog,3482,8705.0,3.6,Excellent service
+PK2026_0328,2026-03-08,March,Sunday,Jeddah,Kuala Lumpur,International,Airbus A320,476,98,180,54.44,474,46452,161,Severe,Delayed,Fog,17975,44937.5,2.6,Excellent service
+PK2026_0329,2026-01-27,January,Tuesday,Islamabad,Dubai,International,ATR 72,336,49,70,70.0,152,7448,45,Moderate,Delayed,Clear,15264,38160.0,3.7,Excellent service
+PK2026_0330,2026-11-14,November,Saturday,Islamabad,Lahore,Domestic,Airbus A320,135,147,180,81.67,1409,207123,164,Severe,Delayed,Storm,7601,19002.5,3.4,Very smooth journey
+PK2026_0331,2026-05-04,May,Monday,Dubai,Kuala Lumpur,International,Boeing 777,179,326,350,93.14,1365,444990,45,Moderate,Delayed,Fog,18999,47497.5,4.7,Delayed but comfortable
+PK2026_0332,2026-11-26,November,Thursday,Dubai,Islamabad,International,ATR 72,257,61,70,87.14,392,23912,136,Severe,Delayed,Rain,14899,37247.5,4.2,Delayed but comfortable
+PK2026_0333,2026-09-26,September,Saturday,Lahore,Karachi,Domestic,Boeing 737,166,86,160,53.75,1347,115842,177,Severe,Delayed,Rain,13847,34617.5,3.2,Poor service
+PK2026_0334,2026-01-19,January,Monday,Islamabad,Lahore,Domestic,Boeing 777,152,333,350,95.14,391,130203,140,Severe,Delayed,Clear,8828,22070.0,3.5,Good experience
+PK2026_0335,2026-06-18,June,Thursday,Lahore,Karachi,Domestic,Boeing 737,371,125,160,78.12,998,124750,58,Moderate,Delayed,Fog,7312,18280.0,5.0,Poor service
+PK2026_0336,2026-09-30,September,Wednesday,Jeddah,Islamabad,International,Boeing 737,185,110,160,68.75,341,37510,193,Severe,Delayed,Clear,3140,7850.0,3.7,Good experience
+PK2026_0337,2026-07-03,July,Friday,Jeddah,London,International,Airbus A320,197,122,180,67.78,1202,146644,230,Severe,Delayed,Storm,10470,26175.0,2.9,Very smooth journey
+PK2026_0338,2026-11-02,November,Monday,Lahore,Jeddah,International,Boeing 777,444,228,350,65.14,1145,261060,148,Severe,Delayed,Storm,12996,32490.0,3.9,Average flight
+PK2026_0339,2026-11-25,November,Wednesday,Dubai,Lahore,International,Airbus A320,443,138,180,76.67,393,54234,34,Moderate,Delayed,Clear,8070,20175.0,3.4,Average flight
+PK2026_0340,2026-11-08,November,Sunday,Kuala Lumpur,London,International,Boeing 737,471,113,160,70.62,1129,127577,186,Severe,Delayed,Rain,4280,10700.0,4.2,Good experience
+PK2026_0341,2026-03-06,March,Friday,Islamabad,Doha,International,Boeing 737,314,121,160,75.62,900,108900,33,Moderate,Delayed,Storm,3417,8542.5,3.9,Excellent service
+PK2026_0342,2026-03-22,March,Sunday,Doha,London,International,ATR 72,100,65,70,92.86,1306,84890,81,Moderate,Delayed,Rain,5174,12935.0,5.0,Good experience
+PK2026_0343,2026-03-24,March,Tuesday,London,Kuala Lumpur,International,ATR 72,91,58,70,82.86,886,51388,155,Severe,Delayed,Fog,12209,30522.5,4.1,Good experience
+PK2026_0344,2026-02-01,February,Sunday,Lahore,Islamabad,Domestic,Boeing 737,468,119,160,74.38,930,110670,69,Moderate,Delayed,Fog,3744,9360.0,3.3,Good experience
+PK2026_0345,2026-01-18,January,Sunday,Doha,Karachi,International,Boeing 777,427,272,350,77.71,847,230384,206,Severe,Delayed,Rain,19903,49757.5,4.1,Very smooth journey
+PK2026_0346,2026-10-16,October,Friday,Dubai,Kuala Lumpur,International,Boeing 777,217,195,350,55.71,878,171210,79,Moderate,Delayed,Rain,12977,32442.5,4.4,Good experience
+PK2026_0347,2026-04-27,April,Monday,Jeddah,Doha,International,Boeing 737,325,96,160,60.0,665,63840,129,Severe,Delayed,Storm,17937,44842.5,3.2,Poor service
+PK2026_0348,2026-07-01,July,Wednesday,Islamabad,Karachi,Domestic,Boeing 777,268,334,350,95.43,1281,427854,209,Severe,Delayed,Rain,3692,9230.0,4.9,Average flight
+PK2026_0349,2026-04-12,April,Sunday,Islamabad,London,International,ATR 72,79,56,70,80.0,282,15792,0,No Delay,On Time,Clear,8466,21165.0,3.9,Excellent service
+PK2026_0350,2026-06-12,June,Friday,Karachi,Kuala Lumpur,International,Boeing 777,318,206,350,58.86,833,171598,138,Severe,Delayed,Storm,8663,21657.5,4.5,Delayed but comfortable
+PK2026_0351,2026-03-23,March,Monday,Islamabad,London,International,ATR 72,80,67,70,95.71,851,57017,24,Minor,Delayed,Clear,10929,27322.5,2.6,Very smooth journey
+PK2026_0352,2026-11-28,November,Saturday,London,Lahore,International,Boeing 737,466,87,160,54.37,887,77169,116,Moderate,Delayed,Storm,13958,34895.0,3.8,Average flight
+PK2026_0353,2026-03-31,March,Tuesday,Jeddah,Lahore,International,ATR 72,460,58,70,82.86,446,25868,214,Severe,Delayed,Rain,17253,43132.5,3.3,Delayed but comfortable
+PK2026_0354,2026-02-26,February,Thursday,Islamabad,London,International,Airbus A320,302,125,180,69.44,1484,185500,67,Moderate,Delayed,Clear,9029,22572.5,3.9,Excellent service
+PK2026_0355,2026-12-09,December,Wednesday,Lahore,London,International,Boeing 777,381,277,350,79.14,705,195285,143,Severe,Delayed,Rain,17459,43647.5,4.0,Delayed but comfortable
+PK2026_0356,2026-07-04,July,Saturday,London,Dubai,International,ATR 72,121,59,70,84.29,511,30149,31,Moderate,Delayed,Rain,5107,12767.5,4.2,Poor service
+PK2026_0357,2026-07-24,July,Friday,Lahore,Dubai,International,ATR 72,110,57,70,81.43,962,54834,66,Moderate,Delayed,Fog,13857,34642.5,3.0,Very smooth journey
+PK2026_0358,2026-03-07,March,Saturday,London,Karachi,International,ATR 72,436,69,70,98.57,436,30084,89,Moderate,Delayed,Storm,11295,28237.5,2.8,Average flight
+PK2026_0359,2026-07-09,July,Thursday,Doha,Lahore,International,ATR 72,93,62,70,88.57,346,21452,100,Moderate,Delayed,Fog,19048,47620.0,4.8,Excellent service
+PK2026_0360,2026-06-21,June,Sunday,Jeddah,Islamabad,International,Boeing 737,200,129,160,80.62,1221,157509,35,Moderate,Delayed,Fog,17184,42960.0,3.3,Very smooth journey
+PK2026_0361,2026-02-02,February,Monday,Islamabad,Kuala Lumpur,International,Boeing 737,188,111,160,69.38,713,79143,193,Severe,Delayed,Storm,18885,47212.5,3.9,Average flight
+PK2026_0362,2026-07-14,July,Tuesday,Doha,Karachi,International,Boeing 737,73,92,160,57.5,1159,106628,227,Severe,Delayed,Rain,10147,25367.5,4.5,Poor service
+PK2026_0363,2026-10-04,October,Sunday,Karachi,Dubai,International,Boeing 737,357,151,160,94.38,1337,201887,24,Minor,Delayed,Rain,19963,49907.5,4.3,Very smooth journey
+PK2026_0364,2026-11-14,November,Saturday,Doha,Dubai,International,Boeing 777,171,218,350,62.29,1164,253752,51,Moderate,Delayed,Clear,7888,19720.0,5.0,Poor service
+PK2026_0365,2026-09-08,September,Tuesday,Jeddah,Karachi,International,Airbus A320,477,137,180,76.11,1390,190430,4,Minor,On Time,Fog,14050,35125.0,2.6,Poor service
+PK2026_0366,2026-01-24,January,Saturday,Kuala Lumpur,Islamabad,International,Airbus A320,257,134,180,74.44,1406,188404,48,Moderate,Delayed,Clear,15186,37965.0,4.7,Poor service
+PK2026_0367,2026-10-10,October,Saturday,Islamabad,Doha,International,Airbus A320,162,166,180,92.22,964,160024,34,Moderate,Delayed,Clear,18528,46320.0,4.0,Poor service
+PK2026_0368,2026-04-30,April,Thursday,Lahore,Dubai,International,ATR 72,163,63,70,90.0,588,37044,181,Severe,Delayed,Storm,6088,15220.0,3.7,Good experience
+PK2026_0369,2026-09-07,September,Monday,Jeddah,Karachi,International,Boeing 737,162,145,160,90.62,673,97585,186,Severe,Delayed,Storm,19525,48812.5,5.0,Excellent service
+PK2026_0370,2026-07-19,July,Sunday,Dubai,Kuala Lumpur,International,Boeing 777,133,281,350,80.29,393,110433,205,Severe,Delayed,Storm,14065,35162.5,4.8,Delayed but comfortable
+PK2026_0371,2026-07-05,July,Sunday,Jeddah,Dubai,International,ATR 72,221,41,70,58.57,187,7667,112,Moderate,Delayed,Rain,19732,49330.0,3.7,Poor service
+PK2026_0372,2026-09-22,September,Tuesday,Lahore,Doha,International,ATR 72,110,63,70,90.0,892,56196,125,Severe,Delayed,Rain,19479,48697.5,3.8,Average flight
+PK2026_0373,2026-03-15,March,Sunday,Karachi,Islamabad,Domestic,Boeing 777,177,274,350,78.29,1374,376476,35,Moderate,Delayed,Rain,13440,33600.0,3.6,Average flight
+PK2026_0374,2026-12-31,December,Thursday,Dubai,Jeddah,International,Boeing 777,436,314,350,89.71,1045,328130,87,Moderate,Delayed,Clear,7628,19070.0,4.4,Delayed but comfortable
+PK2026_0375,2026-12-13,December,Sunday,Jeddah,London,International,ATR 72,233,60,70,85.71,878,52680,175,Severe,Delayed,Storm,6283,15707.5,4.0,Very smooth journey
+PK2026_0376,2026-07-03,July,Friday,Jeddah,Kuala Lumpur,International,ATR 72,123,49,70,70.0,493,24157,141,Severe,Delayed,Rain,10439,26097.5,2.6,Average flight
+PK2026_0377,2026-12-02,December,Wednesday,Karachi,Dubai,International,ATR 72,184,43,70,61.43,1351,58093,81,Moderate,Delayed,Storm,4184,10460.0,4.2,Average flight
+PK2026_0378,2026-06-19,June,Friday,Lahore,London,International,Boeing 777,416,246,350,70.29,743,182778,205,Severe,Delayed,Rain,18010,45025.0,3.0,Excellent service
+PK2026_0379,2026-11-19,November,Thursday,Doha,Dubai,International,ATR 72,373,41,70,58.57,787,32267,88,Moderate,Delayed,Fog,13058,32645.0,4.3,Excellent service
+PK2026_0380,2026-12-21,December,Monday,Jeddah,Kuala Lumpur,International,Boeing 777,345,336,350,96.0,424,142464,147,Severe,Delayed,Clear,19600,49000.0,4.5,Poor service
+PK2026_0381,2026-09-06,September,Sunday,Karachi,Jeddah,International,Boeing 737,421,135,160,84.38,1131,152685,4,Minor,On Time,Storm,18357,45892.5,3.1,Good experience
+PK2026_0382,2026-09-08,September,Tuesday,London,Islamabad,International,ATR 72,254,43,70,61.43,1047,45021,54,Moderate,Delayed,Clear,5880,14700.0,3.2,Very smooth journey
+PK2026_0383,2026-05-04,May,Monday,Jeddah,Islamabad,International,Airbus A320,130,135,180,75.0,416,56160,63,Moderate,Delayed,Clear,18269,45672.5,4.5,Delayed but comfortable
+PK2026_0384,2026-08-21,August,Friday,Islamabad,Dubai,International,Airbus A320,250,97,180,53.89,923,89531,191,Severe,Delayed,Storm,8525,21312.5,2.6,Very smooth journey
+PK2026_0385,2026-12-04,December,Friday,Dubai,Doha,International,Airbus A320,248,113,180,62.78,1348,152324,168,Severe,Delayed,Clear,3255,8137.5,4.2,Good experience
+PK2026_0386,2026-12-11,December,Friday,London,Islamabad,International,Boeing 737,321,154,160,96.25,761,117194,197,Severe,Delayed,Fog,18679,46697.5,4.1,Excellent service
+PK2026_0387,2026-07-29,July,Wednesday,London,Dubai,International,Boeing 777,280,241,350,68.86,1365,328965,21,Minor,Delayed,Clear,10159,25397.5,2.9,Good experience
+PK2026_0388,2026-05-27,May,Wednesday,Lahore,Karachi,Domestic,Boeing 777,200,270,350,77.14,626,169020,81,Moderate,Delayed,Fog,18711,46777.5,3.1,Very smooth journey
+PK2026_0389,2026-09-30,September,Wednesday,Lahore,Karachi,Domestic,ATR 72,208,36,70,51.43,1369,49284,170,Severe,Delayed,Clear,6946,17365.0,2.8,Average flight
+PK2026_0390,2026-04-07,April,Tuesday,Karachi,Dubai,International,Airbus A320,271,170,180,94.44,162,27540,201,Severe,Delayed,Rain,4346,10865.0,4.9,Good experience
+PK2026_0391,2026-08-04,August,Tuesday,London,Kuala Lumpur,International,Airbus A320,283,104,180,57.78,852,88608,94,Moderate,Delayed,Storm,10418,26045.0,2.9,Average flight
+PK2026_0392,2026-04-01,April,Wednesday,London,Kuala Lumpur,International,Boeing 737,61,114,160,71.25,225,25650,89,Moderate,Delayed,Storm,18656,46640.0,3.7,Delayed but comfortable
+PK2026_0393,2026-07-24,July,Friday,Dubai,London,International,Boeing 737,69,129,160,80.62,1088,140352,212,Severe,Delayed,Rain,16777,41942.5,3.0,Average flight
+PK2026_0394,2026-05-11,May,Monday,Islamabad,Lahore,Domestic,Boeing 777,458,334,350,95.43,559,186706,80,Moderate,Delayed,Fog,10729,26822.5,4.3,Good experience
+PK2026_0395,2026-07-04,July,Saturday,Jeddah,London,International,Boeing 777,413,202,350,57.71,545,110090,203,Severe,Delayed,Storm,9597,23992.5,4.8,Poor service
+PK2026_0396,2026-06-02,June,Tuesday,Karachi,Lahore,Domestic,ATR 72,374,63,70,90.0,754,47502,161,Severe,Delayed,Clear,16632,41580.0,4.6,Very smooth journey
+PK2026_0397,2026-04-18,April,Saturday,Lahore,Islamabad,Domestic,Airbus A320,287,124,180,68.89,499,61876,99,Moderate,Delayed,Storm,14467,36167.5,4.9,Poor service
+PK2026_0398,2026-03-13,March,Friday,Karachi,Lahore,Domestic,Boeing 777,393,269,350,76.86,1272,342168,202,Severe,Delayed,Clear,7484,18710.0,4.8,Very smooth journey
+PK2026_0399,2026-07-28,July,Tuesday,Islamabad,Jeddah,International,ATR 72,170,36,70,51.43,144,5184,42,Moderate,Delayed,Storm,18340,45850.0,4.4,Very smooth journey
+PK2026_0400,2026-11-21,November,Saturday,Doha,Jeddah,International,ATR 72,295,50,70,71.43,1457,72850,182,Severe,Delayed,Storm,5562,13905.0,4.9,Good experience
+PK2026_0401,2026-06-10,June,Wednesday,Islamabad,Kuala Lumpur,International,ATR 72,236,41,70,58.57,1419,58179,51,Moderate,Delayed,Clear,9724,24310.0,2.5,Very smooth journey
+PK2026_0402,2026-09-12,September,Saturday,Lahore,Doha,International,Boeing 777,338,260,350,74.29,696,180960,221,Severe,Delayed,Fog,16721,41802.5,3.2,Delayed but comfortable
+PK2026_0403,2026-06-10,June,Wednesday,London,Karachi,International,ATR 72,156,68,70,97.14,1419,96492,187,Severe,Delayed,Clear,18050,45125.0,4.1,Average flight
+PK2026_0404,2026-12-27,December,Sunday,Jeddah,London,International,Boeing 777,147,301,350,86.0,747,224847,173,Severe,Delayed,Clear,19629,49072.5,3.8,Good experience
+PK2026_0405,2026-11-20,November,Friday,Lahore,Dubai,International,Boeing 737,227,144,160,90.0,1353,194832,118,Moderate,Delayed,Fog,10108,25270.0,2.8,Very smooth journey
+PK2026_0406,2026-12-23,December,Wednesday,Dubai,Karachi,International,Airbus A320,381,178,180,98.89,439,78142,70,Moderate,Delayed,Rain,7549,18872.5,3.4,Poor service
+PK2026_0407,2026-06-19,June,Friday,Dubai,Karachi,International,ATR 72,473,35,70,50.0,349,12215,149,Severe,Delayed,Fog,19866,49665.0,4.9,Average flight
+PK2026_0408,2026-01-25,January,Sunday,Jeddah,Dubai,International,Boeing 777,122,201,350,57.43,1285,258285,110,Moderate,Delayed,Storm,13589,33972.5,2.9,Average flight
+PK2026_0409,2026-07-11,July,Saturday,Islamabad,Doha,International,Boeing 777,76,320,350,91.43,1350,432000,162,Severe,Delayed,Fog,14546,36365.0,4.2,Good experience
+PK2026_0410,2026-08-02,August,Sunday,Islamabad,London,International,Airbus A320,217,103,180,57.22,780,80340,28,Minor,Delayed,Clear,17189,42972.5,4.1,Good experience
+PK2026_0411,2026-06-22,June,Monday,Jeddah,Islamabad,International,ATR 72,308,46,70,65.71,1013,46598,105,Moderate,Delayed,Clear,14209,35522.5,3.4,Excellent service
+PK2026_0412,2026-08-31,August,Monday,London,Kuala Lumpur,International,Boeing 737,365,121,160,75.62,1233,149193,74,Moderate,Delayed,Rain,9208,23020.0,3.7,Delayed but comfortable
+PK2026_0413,2026-12-11,December,Friday,Doha,Jeddah,International,Airbus A320,244,173,180,96.11,1070,185110,17,Minor,Delayed,Rain,11046,27615.0,3.5,Excellent service
+PK2026_0414,2026-07-28,July,Tuesday,Kuala Lumpur,Islamabad,International,Boeing 777,112,348,350,99.43,1232,428736,131,Severe,Delayed,Clear,13465,33662.5,3.6,Average flight
+PK2026_0415,2026-10-02,October,Friday,London,Islamabad,International,Boeing 737,271,100,160,62.5,744,74400,168,Severe,Delayed,Storm,10216,25540.0,4.9,Delayed but comfortable
+PK2026_0416,2026-05-01,May,Friday,Jeddah,London,International,Boeing 777,455,341,350,97.43,1290,439890,106,Moderate,Delayed,Storm,7492,18730.0,4.5,Delayed but comfortable
+PK2026_0417,2026-11-18,November,Wednesday,Doha,London,International,Airbus A320,84,141,180,78.33,1017,143397,205,Severe,Delayed,Storm,9014,22535.0,3.2,Good experience
+PK2026_0418,2026-09-21,September,Monday,Islamabad,Kuala Lumpur,International,ATR 72,299,42,70,60.0,1410,59220,75,Moderate,Delayed,Rain,8019,20047.5,4.8,Average flight
+PK2026_0419,2026-11-27,November,Friday,Karachi,Islamabad,Domestic,ATR 72,454,52,70,74.29,844,43888,176,Severe,Delayed,Fog,19361,48402.5,3.1,Delayed but comfortable
+PK2026_0420,2026-07-23,July,Thursday,Lahore,Jeddah,International,Airbus A320,385,141,180,78.33,905,127605,34,Moderate,Delayed,Storm,9322,23305.0,3.3,Good experience
+PK2026_0421,2026-10-15,October,Thursday,Lahore,Karachi,Domestic,Boeing 737,83,157,160,98.12,220,34540,176,Severe,Delayed,Rain,4690,11725.0,3.7,Poor service
+PK2026_0422,2026-07-03,July,Friday,Dubai,London,International,Boeing 777,92,210,350,60.0,865,181650,34,Moderate,Delayed,Rain,10168,25420.0,4.9,Delayed but comfortable
+PK2026_0423,2026-05-23,May,Saturday,Dubai,Lahore,International,Airbus A320,95,122,180,67.78,394,48068,63,Moderate,Delayed,Rain,8662,21655.0,3.1,Good experience
+PK2026_0424,2026-08-28,August,Friday,Karachi,Dubai,International,Airbus A320,313,139,180,77.22,1312,182368,129,Severe,Delayed,Rain,8985,22462.5,2.7,Excellent service
+PK2026_0425,2026-05-27,May,Wednesday,Karachi,Dubai,International,Boeing 737,398,96,160,60.0,382,36672,11,Minor,On Time,Clear,19901,49752.5,3.9,Very smooth journey
+PK2026_0426,2026-08-03,August,Monday,Karachi,Lahore,Domestic,Boeing 777,340,326,350,93.14,353,115078,110,Moderate,Delayed,Clear,17582,43955.0,4.9,Excellent service
+PK2026_0427,2026-07-10,July,Friday,Lahore,Doha,International,ATR 72,290,66,70,94.29,1030,67980,16,Minor,Delayed,Storm,19716,49290.0,3.4,Very smooth journey
+PK2026_0428,2026-09-05,September,Saturday,Islamabad,London,International,Boeing 737,86,83,160,51.88,525,43575,38,Moderate,Delayed,Storm,4044,10110.0,3.5,Average flight
+PK2026_0429,2026-08-10,August,Monday,London,Karachi,International,Boeing 777,380,316,350,90.29,1122,354552,169,Severe,Delayed,Storm,16516,41290.0,2.6,Very smooth journey
+PK2026_0430,2026-10-23,October,Friday,Islamabad,Karachi,Domestic,ATR 72,90,52,70,74.29,292,15184,45,Moderate,Delayed,Rain,13170,32925.0,2.8,Poor service
+PK2026_0431,2026-07-16,July,Thursday,Lahore,London,International,Boeing 737,436,106,160,66.25,334,35404,140,Severe,Delayed,Clear,18927,47317.5,2.9,Very smooth journey
+PK2026_0432,2026-02-05,February,Thursday,Karachi,London,International,Boeing 737,335,115,160,71.88,644,74060,96,Moderate,Delayed,Rain,15449,38622.5,3.4,Good experience
+PK2026_0433,2026-12-10,December,Thursday,Karachi,Dubai,International,Boeing 777,127,188,350,53.71,137,25756,151,Severe,Delayed,Fog,16187,40467.5,2.7,Delayed but comfortable
+PK2026_0434,2026-12-04,December,Friday,Karachi,Jeddah,International,ATR 72,72,62,70,88.57,1028,63736,175,Severe,Delayed,Rain,7496,18740.0,4.2,Poor service
+PK2026_0435,2026-12-20,December,Sunday,Lahore,Jeddah,International,Airbus A320,98,121,180,67.22,908,109868,201,Severe,Delayed,Clear,14633,36582.5,4.9,Delayed but comfortable
+PK2026_0436,2026-01-05,January,Monday,London,Doha,International,ATR 72,81,36,70,51.43,1252,45072,81,Moderate,Delayed,Storm,15501,38752.5,4.7,Average flight
+PK2026_0437,2026-11-12,November,Thursday,London,Doha,International,Airbus A320,99,117,180,65.0,1201,140517,176,Severe,Delayed,Clear,18662,46655.0,4.8,Delayed but comfortable
+PK2026_0438,2026-09-23,September,Wednesday,London,Jeddah,International,ATR 72,230,51,70,72.86,527,26877,139,Severe,Delayed,Storm,4914,12285.0,4.2,Good experience
+PK2026_0439,2026-02-08,February,Sunday,Kuala Lumpur,London,International,Boeing 737,169,138,160,86.25,934,128892,199,Severe,Delayed,Clear,6600,16500.0,4.4,Poor service
+PK2026_0440,2026-08-23,August,Sunday,Dubai,London,International,ATR 72,196,65,70,92.86,323,20995,27,Minor,Delayed,Clear,10149,25372.5,4.8,Average flight
+PK2026_0441,2026-06-14,June,Sunday,London,Doha,International,Airbus A320,476,148,180,82.22,920,136160,88,Moderate,Delayed,Fog,15246,38115.0,4.4,Very smooth journey
+PK2026_0442,2026-12-12,December,Saturday,Doha,Lahore,International,Boeing 777,376,324,350,92.57,1430,463320,206,Severe,Delayed,Fog,8987,22467.5,2.6,Good experience
+PK2026_0443,2026-04-21,April,Tuesday,Dubai,Kuala Lumpur,International,Boeing 777,311,179,350,51.14,267,47793,28,Minor,Delayed,Clear,6086,15215.0,2.6,Average flight
+PK2026_0444,2026-12-29,December,Tuesday,Jeddah,Islamabad,International,Boeing 737,411,81,160,50.62,1276,103356,33,Moderate,Delayed,Storm,7992,19980.0,4.8,Delayed but comfortable
+PK2026_0445,2026-08-05,August,Wednesday,Kuala Lumpur,Jeddah,International,Boeing 777,329,190,350,54.29,1290,245100,236,Severe,Delayed,Clear,17667,44167.5,4.8,Excellent service
+PK2026_0446,2026-06-05,June,Friday,Dubai,Doha,International,ATR 72,469,67,70,95.71,183,12261,125,Severe,Delayed,Rain,9374,23435.0,4.6,Poor service
+PK2026_0447,2026-06-12,June,Friday,Islamabad,London,International,Boeing 777,341,345,350,98.57,147,50715,2,Minor,On Time,Rain,18685,46712.5,4.2,Excellent service
+PK2026_0448,2026-07-04,July,Saturday,Islamabad,Doha,International,Airbus A320,402,115,180,63.89,555,63825,182,Severe,Delayed,Rain,9035,22587.5,4.0,Delayed but comfortable
+PK2026_0449,2026-03-31,March,Tuesday,Islamabad,London,International,Boeing 737,472,133,160,83.12,983,130739,219,Severe,Delayed,Clear,5042,12605.0,4.2,Very smooth journey
+PK2026_0450,2026-03-13,March,Friday,London,Kuala Lumpur,International,Airbus A320,366,158,180,87.78,259,40922,33,Moderate,Delayed,Rain,13613,34032.5,3.9,Delayed but comfortable
+PK2026_0451,2026-06-21,June,Sunday,Karachi,Lahore,Domestic,Airbus A320,300,174,180,96.67,1417,246558,172,Severe,Delayed,Fog,4582,11455.0,4.7,Delayed but comfortable
+PK2026_0452,2026-04-29,April,Wednesday,Lahore,Doha,International,Boeing 777,304,289,350,82.57,383,110687,227,Severe,Delayed,Rain,13797,34492.5,3.9,Good experience
+PK2026_0453,2026-02-13,February,Friday,Karachi,London,International,ATR 72,130,50,70,71.43,755,37750,213,Severe,Delayed,Fog,7264,18160.0,3.7,Very smooth journey
+PK2026_0454,2026-07-18,July,Saturday,Lahore,Dubai,International,Boeing 737,370,138,160,86.25,239,32982,11,Minor,On Time,Rain,3196,7990.0,5.0,Poor service
+PK2026_0455,2026-02-13,February,Friday,Lahore,Jeddah,International,Airbus A320,244,177,180,98.33,688,121776,235,Severe,Delayed,Rain,11331,28327.5,2.6,Poor service
+PK2026_0456,2026-11-19,November,Thursday,Kuala Lumpur,Karachi,International,ATR 72,323,36,70,51.43,686,24696,24,Minor,Delayed,Rain,11976,29940.0,3.6,Good experience
+PK2026_0457,2026-11-21,November,Saturday,Dubai,London,International,ATR 72,184,47,70,67.14,405,19035,166,Severe,Delayed,Clear,8043,20107.5,4.5,Excellent service
+PK2026_0458,2026-03-01,March,Sunday,Kuala Lumpur,Doha,International,ATR 72,442,46,70,65.71,1215,55890,158,Severe,Delayed,Storm,11208,28020.0,3.6,Average flight
+PK2026_0459,2026-01-15,January,Thursday,Islamabad,Lahore,Domestic,Airbus A320,350,130,180,72.22,732,95160,170,Severe,Delayed,Fog,14323,35807.5,3.3,Average flight
+PK2026_0460,2026-02-17,February,Tuesday,Doha,Islamabad,International,Boeing 737,274,123,160,76.88,685,84255,57,Moderate,Delayed,Clear,15704,39260.0,2.6,Average flight
+PK2026_0461,2026-01-14,January,Wednesday,Islamabad,London,International,Boeing 777,67,179,350,51.14,424,75896,80,Moderate,Delayed,Rain,4834,12085.0,4.4,Very smooth journey
+PK2026_0462,2026-12-16,December,Wednesday,Doha,Islamabad,International,Airbus A320,72,105,180,58.33,463,48615,158,Severe,Delayed,Fog,10421,26052.5,3.2,Delayed but comfortable
+PK2026_0463,2026-01-05,January,Monday,Karachi,Islamabad,Domestic,ATR 72,461,39,70,55.71,1358,52962,148,Severe,Delayed,Rain,18951,47377.5,2.7,Average flight
+PK2026_0464,2026-04-27,April,Monday,Lahore,Kuala Lumpur,International,Boeing 777,307,337,350,96.29,1154,388898,68,Moderate,Delayed,Fog,17728,44320.0,3.6,Excellent service
+PK2026_0465,2026-02-22,February,Sunday,Islamabad,London,International,Airbus A320,318,134,180,74.44,1218,163212,168,Severe,Delayed,Fog,4718,11795.0,3.3,Excellent service
+PK2026_0466,2026-07-28,July,Tuesday,Lahore,London,International,Airbus A320,65,93,180,51.67,218,20274,113,Moderate,Delayed,Clear,6568,16420.0,2.7,Poor service
+PK2026_0467,2026-01-08,January,Thursday,Jeddah,Islamabad,International,Boeing 777,380,205,350,58.57,203,41615,80,Moderate,Delayed,Clear,17649,44122.5,4.8,Poor service
+PK2026_0468,2026-12-26,December,Saturday,Doha,Islamabad,International,Airbus A320,397,138,180,76.67,969,133722,182,Severe,Delayed,Storm,7821,19552.5,2.7,Delayed but comfortable
+PK2026_0469,2026-10-25,October,Sunday,Islamabad,Karachi,Domestic,Boeing 737,139,92,160,57.5,710,65320,195,Severe,Delayed,Storm,12726,31815.0,4.1,Average flight
+PK2026_0470,2026-11-24,November,Tuesday,London,Dubai,International,Boeing 777,286,227,350,64.86,903,204981,123,Severe,Delayed,Fog,5269,13172.5,4.0,Poor service
+PK2026_0471,2026-06-22,June,Monday,London,Karachi,International,Airbus A320,141,92,180,51.11,308,28336,86,Moderate,Delayed,Rain,11679,29197.5,4.7,Poor service
+PK2026_0472,2026-12-01,December,Tuesday,Islamabad,Dubai,International,Boeing 777,241,310,350,88.57,845,261950,234,Severe,Delayed,Clear,5337,13342.5,4.1,Average flight
+PK2026_0473,2026-08-07,August,Friday,Lahore,London,International,ATR 72,243,55,70,78.57,188,10340,89,Moderate,Delayed,Clear,19121,47802.5,2.7,Very smooth journey
+PK2026_0474,2026-11-30,November,Monday,Dubai,Jeddah,International,ATR 72,461,36,70,51.43,586,21096,49,Moderate,Delayed,Fog,15399,38497.5,2.7,Very smooth journey
+PK2026_0475,2026-01-29,January,Thursday,Jeddah,Kuala Lumpur,International,ATR 72,407,38,70,54.29,977,37126,210,Severe,Delayed,Clear,17547,43867.5,3.5,Poor service
+PK2026_0476,2026-04-22,April,Wednesday,Islamabad,Kuala Lumpur,International,Boeing 777,470,315,350,90.0,965,303975,9,Minor,On Time,Clear,9347,23367.5,3.7,Excellent service
+PK2026_0477,2026-08-06,August,Thursday,London,Karachi,International,Boeing 737,368,91,160,56.88,225,20475,0,No Delay,On Time,Storm,4525,11312.5,4.3,Delayed but comfortable
+PK2026_0478,2026-08-24,August,Monday,London,Lahore,International,Airbus A320,366,93,180,51.67,724,67332,132,Severe,Delayed,Clear,11747,29367.5,3.1,Average flight
+PK2026_0479,2026-12-28,December,Monday,Lahore,Islamabad,Domestic,ATR 72,232,40,70,57.14,1130,45200,124,Severe,Delayed,Fog,9275,23187.5,2.6,Average flight
+PK2026_0480,2026-02-18,February,Wednesday,Dubai,London,International,Boeing 737,134,80,160,50.0,1396,111680,68,Moderate,Delayed,Rain,14309,35772.5,2.9,Delayed but comfortable
+PK2026_0481,2026-06-26,June,Friday,Islamabad,Lahore,Domestic,Airbus A320,74,146,180,81.11,736,107456,160,Severe,Delayed,Fog,18721,46802.5,4.0,Very smooth journey
+PK2026_0482,2026-01-03,January,Saturday,Islamabad,Dubai,International,Boeing 737,442,128,160,80.0,1094,140032,211,Severe,Delayed,Rain,7944,19860.0,3.0,Excellent service
+PK2026_0483,2026-02-09,February,Monday,Jeddah,Karachi,International,Boeing 777,68,285,350,81.43,699,199215,160,Severe,Delayed,Clear,4274,10685.0,3.6,Average flight
+PK2026_0484,2026-12-16,December,Wednesday,Jeddah,Dubai,International,Boeing 737,123,104,160,65.0,1169,121576,80,Moderate,Delayed,Fog,13228,33070.0,4.2,Very smooth journey
+PK2026_0485,2026-03-15,March,Sunday,London,Doha,International,Airbus A320,290,97,180,53.89,300,29100,211,Severe,Delayed,Storm,17177,42942.5,4.2,Excellent service
+PK2026_0486,2026-09-13,September,Sunday,Karachi,Doha,International,ATR 72,175,66,70,94.29,695,45870,26,Minor,Delayed,Storm,9804,24510.0,3.1,Excellent service
+PK2026_0487,2026-11-27,November,Friday,Dubai,Lahore,International,ATR 72,98,46,70,65.71,126,5796,32,Moderate,Delayed,Clear,7368,18420.0,3.1,Poor service
+PK2026_0488,2026-01-23,January,Friday,Islamabad,Doha,International,Boeing 737,227,160,160,100.0,1206,192960,162,Severe,Delayed,Storm,8971,22427.5,4.8,Poor service
+PK2026_0489,2026-04-19,April,Sunday,London,Jeddah,International,Boeing 737,152,100,160,62.5,198,19800,168,Severe,Delayed,Clear,17077,42692.5,3.6,Good experience
+PK2026_0490,2026-03-03,March,Tuesday,Kuala Lumpur,Doha,International,Boeing 777,206,332,350,94.86,953,316396,42,Moderate,Delayed,Rain,6395,15987.5,4.4,Very smooth journey
+PK2026_0491,2026-09-17,September,Thursday,Doha,Islamabad,International,Boeing 777,399,241,350,68.86,1063,256183,78,Moderate,Delayed,Clear,11230,28075.0,4.7,Delayed but comfortable
+PK2026_0492,2026-02-26,February,Thursday,London,Islamabad,International,Airbus A320,256,96,180,53.33,352,33792,187,Severe,Delayed,Clear,11293,28232.5,3.2,Good experience
+PK2026_0493,2026-03-14,March,Saturday,Islamabad,London,International,Boeing 737,356,137,160,85.62,518,70966,120,Moderate,Delayed,Clear,10778,26945.0,4.2,Average flight
+PK2026_0494,2026-05-17,May,Sunday,London,Kuala Lumpur,International,Airbus A320,210,163,180,90.56,1202,195926,51,Moderate,Delayed,Rain,14291,35727.5,4.0,Average flight
+PK2026_0495,2026-04-03,April,Friday,Doha,Karachi,International,Boeing 777,177,316,350,90.29,604,190864,13,Minor,On Time,Clear,11275,28187.5,4.8,Delayed but comfortable
+PK2026_0496,2026-04-20,April,Monday,Lahore,Dubai,International,ATR 72,317,64,70,91.43,370,23680,236,Severe,Delayed,Fog,9437,23592.5,3.2,Poor service
+PK2026_0497,2026-04-12,April,Sunday,Islamabad,Karachi,Domestic,Boeing 777,79,300,350,85.71,492,147600,123,Severe,Delayed,Fog,16267,40667.5,3.9,Delayed but comfortable
+PK2026_0498,2026-10-30,October,Friday,Islamabad,Kuala Lumpur,International,Boeing 737,280,86,160,53.75,961,82646,122,Severe,Delayed,Rain,10126,25315.0,3.8,Poor service
+PK2026_0499,2026-09-27,September,Sunday,Kuala Lumpur,Lahore,International,Airbus A320,87,136,180,75.56,699,95064,78,Moderate,Delayed,Storm,14475,36187.5,2.8,Average flight
+PK2026_0500,2026-08-22,August,Saturday,Jeddah,Doha,International,Boeing 737,392,152,160,95.0,403,61256,1,Minor,On Time,Storm,16848,42120.0,4.9,Poor service
+PK2026_0501,2026-10-29,October,Thursday,Jeddah,Karachi,International,Airbus A320,479,94,180,52.22,425,39950,12,Minor,On Time,Rain,3394,8485.0,3.7,Delayed but comfortable
+PK2026_0502,2026-08-02,August,Sunday,London,Dubai,International,Airbus A320,305,141,180,78.33,654,92214,30,Minor,Delayed,Clear,11980,29950.0,3.1,Excellent service
+PK2026_0503,2026-10-12,October,Monday,Lahore,Dubai,International,ATR 72,128,39,70,55.71,1071,41769,88,Moderate,Delayed,Clear,15275,38187.5,4.2,Average flight
+PK2026_0504,2026-06-28,June,Sunday,Lahore,London,International,Boeing 777,107,264,350,75.43,171,45144,65,Moderate,Delayed,Clear,6489,16222.5,4.5,Poor service
+PK2026_0505,2026-05-05,May,Tuesday,Kuala Lumpur,Lahore,International,Boeing 777,238,338,350,96.57,1334,450892,237,Severe,Delayed,Fog,12168,30420.0,4.9,Delayed but comfortable
+PK2026_0506,2026-04-05,April,Sunday,Dubai,Kuala Lumpur,International,Boeing 737,333,80,160,50.0,265,21200,17,Minor,Delayed,Rain,12757,31892.5,4.7,Good experience
+PK2026_0507,2026-07-04,July,Saturday,Islamabad,Kuala Lumpur,International,ATR 72,390,58,70,82.86,484,28072,10,Minor,On Time,Fog,8315,20787.5,3.6,Very smooth journey
+PK2026_0508,2026-12-23,December,Wednesday,Kuala Lumpur,Islamabad,International,Boeing 737,357,149,160,93.12,322,47978,192,Severe,Delayed,Clear,17442,43605.0,3.3,Excellent service
+PK2026_0509,2026-08-09,August,Sunday,London,Dubai,International,ATR 72,206,47,70,67.14,635,29845,191,Severe,Delayed,Rain,3573,8932.5,2.6,Good experience
+PK2026_0510,2026-09-01,September,Tuesday,Karachi,Lahore,Domestic,Airbus A320,100,165,180,91.67,554,91410,194,Severe,Delayed,Rain,8168,20420.0,3.5,Delayed but comfortable
+PK2026_0511,2026-01-15,January,Thursday,Kuala Lumpur,Doha,International,Boeing 737,92,147,160,91.88,1085,159495,85,Moderate,Delayed,Fog,14432,36080.0,3.8,Good experience
+PK2026_0512,2026-07-16,July,Thursday,Islamabad,Doha,International,Airbus A320,417,143,180,79.44,365,52195,163,Severe,Delayed,Fog,11682,29205.0,5.0,Delayed but comfortable
+PK2026_0513,2026-06-22,June,Monday,Jeddah,Doha,International,Boeing 777,290,220,350,62.86,1061,233420,82,Moderate,Delayed,Storm,9867,24667.5,2.6,Excellent service
+PK2026_0514,2026-11-23,November,Monday,Islamabad,Kuala Lumpur,International,Boeing 737,220,108,160,67.5,789,85212,127,Severe,Delayed,Clear,12592,31480.0,3.9,Excellent service
+PK2026_0515,2026-03-23,March,Monday,London,Karachi,International,Boeing 777,136,268,350,76.57,1489,399052,190,Severe,Delayed,Clear,16809,42022.5,3.6,Excellent service
+PK2026_0516,2026-06-03,June,Wednesday,Kuala Lumpur,Lahore,International,ATR 72,237,38,70,54.29,681,25878,23,Minor,Delayed,Fog,14098,35245.0,3.6,Average flight
+PK2026_0517,2026-08-05,August,Wednesday,Jeddah,Lahore,International,Airbus A320,307,168,180,93.33,1258,211344,210,Severe,Delayed,Storm,15695,39237.5,3.9,Good experience
+PK2026_0518,2026-08-11,August,Tuesday,Jeddah,Doha,International,Boeing 777,337,221,350,63.14,1378,304538,232,Severe,Delayed,Clear,14706,36765.0,3.0,Average flight
+PK2026_0519,2026-05-22,May,Friday,Kuala Lumpur,Karachi,International,Boeing 737,464,90,160,56.25,1237,111330,35,Moderate,Delayed,Rain,5847,14617.5,5.0,Average flight
+PK2026_0520,2026-05-28,May,Thursday,Doha,Islamabad,International,Boeing 777,433,336,350,96.0,186,62496,235,Severe,Delayed,Storm,13040,32600.0,3.8,Average flight
+PK2026_0521,2026-08-13,August,Thursday,Jeddah,Lahore,International,ATR 72,212,67,70,95.71,999,66933,133,Severe,Delayed,Fog,10778,26945.0,4.4,Good experience
+PK2026_0522,2026-08-04,August,Tuesday,Islamabad,Jeddah,International,Airbus A320,85,119,180,66.11,1487,176953,188,Severe,Delayed,Fog,3460,8650.0,3.6,Very smooth journey
+PK2026_0523,2026-09-03,September,Thursday,Karachi,Jeddah,International,Boeing 737,384,102,160,63.75,663,67626,165,Severe,Delayed,Fog,18524,46310.0,4.5,Average flight
+PK2026_0524,2026-06-30,June,Tuesday,Jeddah,Lahore,International,Boeing 737,440,127,160,79.38,1208,153416,20,Minor,Delayed,Fog,17336,43340.0,3.0,Excellent service
+PK2026_0525,2026-02-14,February,Saturday,Doha,London,International,Boeing 737,258,122,160,76.25,495,60390,70,Moderate,Delayed,Clear,3663,9157.5,3.6,Delayed but comfortable
+PK2026_0526,2026-10-02,October,Friday,Doha,Kuala Lumpur,International,Boeing 777,468,267,350,76.29,522,139374,85,Moderate,Delayed,Clear,18943,47357.5,2.5,Good experience
+PK2026_0527,2026-09-22,September,Tuesday,Karachi,Kuala Lumpur,International,Boeing 777,290,320,350,91.43,1207,386240,30,Minor,Delayed,Clear,11239,28097.5,3.3,Good experience
+PK2026_0528,2026-03-03,March,Tuesday,Jeddah,Karachi,International,Airbus A320,124,140,180,77.78,1231,172340,7,Minor,On Time,Clear,5644,14110.0,4.3,Good experience
+PK2026_0529,2026-06-04,June,Thursday,Karachi,Lahore,Domestic,ATR 72,165,68,70,97.14,576,39168,225,Severe,Delayed,Storm,14708,36770.0,4.9,Poor service
+PK2026_0530,2026-12-29,December,Tuesday,Lahore,Doha,International,Boeing 737,395,103,160,64.38,339,34917,33,Moderate,Delayed,Fog,6169,15422.5,4.9,Good experience
+PK2026_0531,2026-03-01,March,Sunday,London,Dubai,International,Airbus A320,262,144,180,80.0,874,125856,49,Moderate,Delayed,Storm,14133,35332.5,2.6,Good experience
+PK2026_0532,2026-08-12,August,Wednesday,London,Dubai,International,Airbus A320,97,136,180,75.56,1155,157080,198,Severe,Delayed,Rain,4572,11430.0,3.1,Good experience
+PK2026_0533,2026-01-10,January,Saturday,Dubai,Doha,International,Boeing 737,230,97,160,60.62,1175,113975,104,Moderate,Delayed,Fog,10582,26455.0,4.8,Poor service
+PK2026_0534,2026-01-27,January,Tuesday,Jeddah,Dubai,International,Boeing 737,182,120,160,75.0,263,31560,85,Moderate,Delayed,Rain,5466,13665.0,3.1,Poor service
+PK2026_0535,2026-09-19,September,Saturday,Doha,Karachi,International,ATR 72,404,51,70,72.86,1490,75990,143,Severe,Delayed,Clear,19301,48252.5,4.2,Excellent service
+PK2026_0536,2026-11-26,November,Thursday,Karachi,Jeddah,International,ATR 72,438,62,70,88.57,439,27218,77,Moderate,Delayed,Clear,15163,37907.5,3.4,Very smooth journey
+PK2026_0537,2026-07-04,July,Saturday,Jeddah,London,International,Boeing 737,169,129,160,80.62,769,99201,218,Severe,Delayed,Storm,5418,13545.0,3.0,Excellent service
+PK2026_0538,2026-07-24,July,Friday,Jeddah,Kuala Lumpur,International,Boeing 777,373,322,350,92.0,392,126224,123,Severe,Delayed,Storm,4041,10102.5,2.6,Very smooth journey
+PK2026_0539,2026-07-14,July,Tuesday,Karachi,Islamabad,Domestic,Boeing 777,66,223,350,63.71,1169,260687,220,Severe,Delayed,Fog,3003,7507.5,4.1,Average flight
+PK2026_0540,2026-10-13,October,Tuesday,Kuala Lumpur,Doha,International,Airbus A320,408,174,180,96.67,498,86652,192,Severe,Delayed,Clear,17715,44287.5,4.2,Good experience
+PK2026_0541,2026-08-08,August,Saturday,Karachi,Islamabad,Domestic,Boeing 777,441,345,350,98.57,894,308430,176,Severe,Delayed,Clear,9177,22942.5,4.8,Very smooth journey
+PK2026_0542,2026-10-02,October,Friday,London,Kuala Lumpur,International,Boeing 777,446,204,350,58.29,717,146268,90,Moderate,Delayed,Clear,7217,18042.5,3.4,Average flight
+PK2026_0543,2026-07-02,July,Thursday,Doha,London,International,Boeing 777,407,190,350,54.29,1037,197030,85,Moderate,Delayed,Clear,10352,25880.0,4.5,Poor service
+PK2026_0544,2026-05-14,May,Thursday,Lahore,Kuala Lumpur,International,Boeing 777,142,195,350,55.71,292,56940,79,Moderate,Delayed,Clear,14370,35925.0,4.3,Delayed but comfortable
+PK2026_0545,2026-02-22,February,Sunday,Karachi,Kuala Lumpur,International,Airbus A320,125,123,180,68.33,948,116604,107,Moderate,Delayed,Fog,15594,38985.0,2.9,Poor service
+PK2026_0546,2026-10-25,October,Sunday,London,Jeddah,International,ATR 72,135,55,70,78.57,1150,63250,75,Moderate,Delayed,Storm,4433,11082.5,4.0,Excellent service
+PK2026_0547,2026-07-12,July,Sunday,Jeddah,Doha,International,Airbus A320,414,159,180,88.33,690,109710,152,Severe,Delayed,Storm,11566,28915.0,4.9,Very smooth journey
+PK2026_0548,2026-04-22,April,Wednesday,Lahore,Jeddah,International,Airbus A320,132,159,180,88.33,425,67575,218,Severe,Delayed,Clear,13583,33957.5,2.7,Poor service
+PK2026_0549,2026-08-18,August,Tuesday,Lahore,Kuala Lumpur,International,Boeing 737,218,109,160,68.12,458,49922,38,Moderate,Delayed,Rain,8098,20245.0,2.6,Excellent service
+PK2026_0550,2026-07-23,July,Thursday,Karachi,London,International,Boeing 777,385,316,350,90.29,513,162108,196,Severe,Delayed,Rain,6514,16285.0,4.5,Very smooth journey
+PK2026_0551,2026-03-03,March,Tuesday,Lahore,Kuala Lumpur,International,ATR 72,333,58,70,82.86,1065,61770,206,Severe,Delayed,Storm,8879,22197.5,4.5,Good experience
+PK2026_0552,2026-01-29,January,Thursday,Jeddah,Lahore,International,ATR 72,283,61,70,87.14,185,11285,190,Severe,Delayed,Fog,6449,16122.5,3.5,Average flight
+PK2026_0553,2026-03-20,March,Friday,Islamabad,Jeddah,International,Boeing 737,126,97,160,60.62,1424,138128,8,Minor,On Time,Fog,16203,40507.5,4.9,Average flight
+PK2026_0554,2026-07-27,July,Monday,Jeddah,Dubai,International,Airbus A320,415,162,180,90.0,1015,164430,218,Severe,Delayed,Clear,11182,27955.0,3.4,Good experience
+PK2026_0555,2026-06-15,June,Monday,Karachi,Jeddah,International,Boeing 737,66,138,160,86.25,666,91908,231,Severe,Delayed,Storm,14946,37365.0,3.1,Poor service
+PK2026_0556,2026-04-06,April,Monday,Doha,Islamabad,International,ATR 72,182,61,70,87.14,304,18544,120,Moderate,Delayed,Fog,14786,36965.0,4.3,Average flight
+PK2026_0557,2026-02-18,February,Wednesday,Kuala Lumpur,Islamabad,International,ATR 72,227,50,70,71.43,1211,60550,7,Minor,On Time,Clear,12655,31637.5,4.3,Excellent service
+PK2026_0558,2026-09-16,September,Wednesday,Lahore,Karachi,Domestic,Airbus A320,365,159,180,88.33,459,72981,187,Severe,Delayed,Storm,11186,27965.0,3.7,Delayed but comfortable
+PK2026_0559,2026-08-06,August,Thursday,Islamabad,Doha,International,Airbus A320,139,132,180,73.33,445,58740,204,Severe,Delayed,Clear,10501,26252.5,4.0,Good experience
+PK2026_0560,2026-01-31,January,Saturday,Kuala Lumpur,London,International,ATR 72,69,61,70,87.14,1447,88267,135,Severe,Delayed,Storm,15209,38022.5,4.1,Good experience
+PK2026_0561,2026-01-14,January,Wednesday,Kuala Lumpur,Dubai,International,Boeing 777,281,295,350,84.29,1037,305915,209,Severe,Delayed,Clear,14640,36600.0,3.3,Very smooth journey
+PK2026_0562,2026-06-10,June,Wednesday,Islamabad,Kuala Lumpur,International,Airbus A320,227,129,180,71.67,848,109392,174,Severe,Delayed,Storm,15415,38537.5,3.3,Average flight
+PK2026_0563,2026-01-24,January,Saturday,Islamabad,Dubai,International,ATR 72,304,55,70,78.57,428,23540,34,Moderate,Delayed,Fog,14703,36757.5,3.8,Very smooth journey
+PK2026_0564,2026-09-21,September,Monday,Karachi,Jeddah,International,Boeing 737,412,81,160,50.62,1440,116640,168,Severe,Delayed,Clear,15141,37852.5,3.5,Average flight
+PK2026_0565,2026-08-03,August,Monday,London,Lahore,International,Boeing 737,395,145,160,90.62,678,98310,237,Severe,Delayed,Storm,17082,42705.0,4.9,Very smooth journey
+PK2026_0566,2026-08-24,August,Monday,Jeddah,London,International,ATR 72,263,63,70,90.0,1182,74466,24,Minor,Delayed,Storm,11070,27675.0,3.4,Good experience
+PK2026_0567,2026-09-22,September,Tuesday,Karachi,Dubai,International,Boeing 777,164,197,350,56.29,1018,200546,95,Moderate,Delayed,Rain,5974,14935.0,3.6,Average flight
+PK2026_0568,2026-06-15,June,Monday,Kuala Lumpur,Dubai,International,Boeing 737,208,96,160,60.0,1164,111744,100,Moderate,Delayed,Fog,18012,45030.0,4.1,Very smooth journey
+PK2026_0569,2026-08-16,August,Sunday,Lahore,Kuala Lumpur,International,Airbus A320,401,138,180,76.67,479,66102,30,Minor,Delayed,Storm,13686,34215.0,2.8,Very smooth journey
+PK2026_0570,2026-03-21,March,Saturday,London,Lahore,International,Boeing 777,273,206,350,58.86,960,197760,153,Severe,Delayed,Fog,3781,9452.5,2.7,Average flight
+PK2026_0571,2026-09-04,September,Friday,Islamabad,Jeddah,International,Boeing 777,183,312,350,89.14,1311,409032,70,Moderate,Delayed,Clear,15782,39455.0,2.9,Delayed but comfortable
+PK2026_0572,2026-12-19,December,Saturday,Karachi,Islamabad,Domestic,Boeing 737,453,121,160,75.62,1059,128139,160,Severe,Delayed,Storm,19090,47725.0,4.1,Excellent service
+PK2026_0573,2026-07-19,July,Sunday,Lahore,Islamabad,Domestic,Airbus A320,459,151,180,83.89,407,61457,225,Severe,Delayed,Rain,5713,14282.5,3.1,Poor service
+PK2026_0574,2026-09-22,September,Tuesday,London,Islamabad,International,Boeing 777,83,253,350,72.29,877,221881,148,Severe,Delayed,Fog,16891,42227.5,4.5,Delayed but comfortable
+PK2026_0575,2026-03-05,March,Thursday,Dubai,Karachi,International,ATR 72,262,61,70,87.14,750,45750,66,Moderate,Delayed,Storm,9554,23885.0,4.6,Delayed but comfortable
+PK2026_0576,2026-02-13,February,Friday,London,Kuala Lumpur,International,Airbus A320,340,141,180,78.33,385,54285,44,Moderate,Delayed,Rain,15009,37522.5,4.8,Very smooth journey
+PK2026_0577,2026-05-03,May,Sunday,Dubai,Islamabad,International,Boeing 737,119,115,160,71.88,1295,148925,87,Moderate,Delayed,Rain,18941,47352.5,2.8,Poor service
+PK2026_0578,2026-01-27,January,Tuesday,London,Jeddah,International,ATR 72,134,49,70,70.0,1047,51303,170,Severe,Delayed,Fog,7016,17540.0,4.8,Poor service
+PK2026_0579,2026-03-07,March,Saturday,Karachi,Islamabad,Domestic,ATR 72,182,70,70,100.0,1499,104930,65,Moderate,Delayed,Rain,16602,41505.0,2.7,Good experience
+PK2026_0580,2026-05-09,May,Saturday,Islamabad,Kuala Lumpur,International,Airbus A320,385,170,180,94.44,678,115260,222,Severe,Delayed,Rain,18715,46787.5,4.5,Poor service
+PK2026_0581,2026-01-27,January,Tuesday,Karachi,Dubai,International,Airbus A320,414,134,180,74.44,1482,198588,76,Moderate,Delayed,Rain,9183,22957.5,2.7,Very smooth journey
+PK2026_0582,2026-04-11,April,Saturday,Lahore,Kuala Lumpur,International,ATR 72,145,64,70,91.43,598,38272,107,Moderate,Delayed,Rain,9140,22850.0,3.8,Delayed but comfortable
+PK2026_0583,2026-12-02,December,Wednesday,Jeddah,Doha,International,Boeing 777,91,344,350,98.29,126,43344,53,Moderate,Delayed,Fog,18988,47470.0,5.0,Delayed but comfortable
+PK2026_0584,2026-07-27,July,Monday,Islamabad,London,International,Airbus A320,62,174,180,96.67,959,166866,234,Severe,Delayed,Rain,18738,46845.0,3.1,Very smooth journey
+PK2026_0585,2026-09-15,September,Tuesday,Kuala Lumpur,Doha,International,Boeing 737,218,140,160,87.5,686,96040,118,Moderate,Delayed,Fog,9792,24480.0,4.5,Poor service
+PK2026_0586,2026-03-29,March,Sunday,London,Lahore,International,ATR 72,379,68,70,97.14,577,39236,90,Moderate,Delayed,Clear,5730,14325.0,2.7,Average flight
+PK2026_0587,2026-10-09,October,Friday,Karachi,Jeddah,International,Boeing 777,467,248,350,70.86,726,180048,139,Severe,Delayed,Clear,6850,17125.0,2.8,Average flight
+PK2026_0588,2026-10-02,October,Friday,Dubai,Islamabad,International,Airbus A320,75,123,180,68.33,511,62853,163,Severe,Delayed,Storm,19014,47535.0,2.8,Good experience
+PK2026_0589,2026-12-02,December,Wednesday,Jeddah,Karachi,International,Airbus A320,306,176,180,97.78,1111,195536,106,Moderate,Delayed,Rain,6161,15402.5,3.4,Poor service
+PK2026_0590,2026-06-20,June,Saturday,Jeddah,Dubai,International,Airbus A320,235,149,180,82.78,720,107280,157,Severe,Delayed,Clear,17132,42830.0,4.0,Delayed but comfortable
+PK2026_0591,2026-06-29,June,Monday,Karachi,Lahore,Domestic,Boeing 777,442,297,350,84.86,1379,409563,42,Moderate,Delayed,Clear,10086,25215.0,3.8,Delayed but comfortable
+PK2026_0592,2026-09-02,September,Wednesday,Islamabad,Jeddah,International,Airbus A320,150,97,180,53.89,1025,99425,83,Moderate,Delayed,Clear,19145,47862.5,3.4,Good experience
+PK2026_0593,2026-04-10,April,Friday,Kuala Lumpur,Jeddah,International,ATR 72,134,39,70,55.71,669,26091,111,Moderate,Delayed,Clear,12063,30157.5,4.1,Poor service
+PK2026_0594,2026-08-20,August,Thursday,Islamabad,Kuala Lumpur,International,ATR 72,202,54,70,77.14,401,21654,67,Moderate,Delayed,Rain,18977,47442.5,3.8,Delayed but comfortable
+PK2026_0595,2026-10-04,October,Sunday,Dubai,Karachi,International,ATR 72,317,41,70,58.57,1163,47683,17,Minor,Delayed,Clear,5907,14767.5,3.0,Excellent service
+PK2026_0596,2026-11-17,November,Tuesday,London,Kuala Lumpur,International,Boeing 777,374,334,350,95.43,1481,494654,198,Severe,Delayed,Fog,14592,36480.0,2.9,Delayed but comfortable
+PK2026_0597,2026-07-15,July,Wednesday,Doha,Jeddah,International,Boeing 737,110,134,160,83.75,1485,198990,82,Moderate,Delayed,Rain,16339,40847.5,3.9,Very smooth journey
+PK2026_0598,2026-11-03,November,Tuesday,Karachi,Lahore,Domestic,Boeing 777,92,289,350,82.57,1326,383214,159,Severe,Delayed,Rain,10916,27290.0,3.6,Delayed but comfortable
+PK2026_0599,2026-02-17,February,Tuesday,Dubai,London,International,Boeing 777,85,204,350,58.29,316,64464,183,Severe,Delayed,Rain,6065,15162.5,4.0,Excellent service
+PK2026_0600,2026-07-20,July,Monday,Doha,Dubai,International,Airbus A320,295,141,180,78.33,1232,173712,181,Severe,Delayed,Fog,7398,18495.0,4.4,Good experience
+PK2026_0601,2026-06-06,June,Saturday,Islamabad,Lahore,Domestic,Boeing 737,361,122,160,76.25,182,22204,55,Moderate,Delayed,Storm,8010,20025.0,2.5,Excellent service
+PK2026_0602,2026-08-19,August,Wednesday,Lahore,Dubai,International,ATR 72,348,68,70,97.14,978,66504,136,Severe,Delayed,Fog,7979,19947.5,4.2,Average flight
+PK2026_0603,2026-12-16,December,Wednesday,Lahore,London,International,Boeing 737,224,122,160,76.25,1139,138958,63,Moderate,Delayed,Rain,16783,41957.5,2.6,Very smooth journey
+PK2026_0604,2026-11-01,November,Sunday,Doha,Lahore,International,ATR 72,73,49,70,70.0,241,11809,190,Severe,Delayed,Rain,9503,23757.5,3.7,Poor service
+PK2026_0605,2026-02-27,February,Friday,Lahore,Kuala Lumpur,International,Boeing 737,311,156,160,97.5,1013,158028,120,Moderate,Delayed,Clear,15358,38395.0,2.7,Good experience
+PK2026_0606,2026-05-27,May,Wednesday,Karachi,Kuala Lumpur,International,Boeing 737,320,131,160,81.88,1155,151305,40,Moderate,Delayed,Fog,17087,42717.5,3.7,Average flight
+PK2026_0607,2026-01-18,January,Sunday,Karachi,Lahore,Domestic,ATR 72,419,64,70,91.43,321,20544,208,Severe,Delayed,Rain,19386,48465.0,4.7,Average flight
+PK2026_0608,2026-12-02,December,Wednesday,Karachi,Jeddah,International,Boeing 737,284,123,160,76.88,648,79704,41,Moderate,Delayed,Clear,8467,21167.5,4.1,Delayed but comfortable
+PK2026_0609,2026-01-09,January,Friday,Doha,Dubai,International,ATR 72,368,50,70,71.43,575,28750,218,Severe,Delayed,Rain,5933,14832.5,3.2,Poor service
+PK2026_0610,2026-10-05,October,Monday,Doha,Lahore,International,ATR 72,472,44,70,62.86,579,25476,153,Severe,Delayed,Rain,15100,37750.0,4.9,Excellent service
+PK2026_0611,2026-09-24,September,Thursday,Doha,Lahore,International,Airbus A320,381,177,180,98.33,1042,184434,205,Severe,Delayed,Storm,19568,48920.0,4.9,Very smooth journey
+PK2026_0612,2026-10-22,October,Thursday,Jeddah,Kuala Lumpur,International,Boeing 777,71,304,350,86.86,1119,340176,131,Severe,Delayed,Fog,16097,40242.5,3.3,Poor service
+PK2026_0613,2026-09-09,September,Wednesday,Kuala Lumpur,Islamabad,International,Airbus A320,452,138,180,76.67,310,42780,118,Moderate,Delayed,Storm,9880,24700.0,3.5,Good experience
+PK2026_0614,2026-09-21,September,Monday,Doha,Lahore,International,ATR 72,394,65,70,92.86,644,41860,120,Moderate,Delayed,Storm,18978,47445.0,3.3,Average flight
+PK2026_0615,2026-03-19,March,Thursday,Lahore,London,International,Boeing 737,469,95,160,59.38,1323,125685,1,Minor,On Time,Rain,14483,36207.5,2.7,Excellent service
+PK2026_0616,2026-08-18,August,Tuesday,Lahore,Kuala Lumpur,International,Airbus A320,366,153,180,85.0,579,88587,232,Severe,Delayed,Rain,10819,27047.5,3.1,Delayed but comfortable
+PK2026_0617,2026-03-12,March,Thursday,Islamabad,Doha,International,Airbus A320,287,148,180,82.22,991,146668,62,Moderate,Delayed,Fog,5520,13800.0,4.2,Very smooth journey
+PK2026_0618,2026-03-23,March,Monday,London,Islamabad,International,Boeing 777,194,176,350,50.29,469,82544,235,Severe,Delayed,Clear,10743,26857.5,3.6,Average flight
+PK2026_0619,2026-07-11,July,Saturday,Islamabad,Jeddah,International,Boeing 737,277,95,160,59.38,1480,140600,186,Severe,Delayed,Clear,17970,44925.0,4.7,Very smooth journey
+PK2026_0620,2026-05-26,May,Tuesday,Lahore,Islamabad,Domestic,Boeing 737,256,139,160,86.88,274,38086,155,Severe,Delayed,Storm,5963,14907.5,2.8,Poor service
+PK2026_0621,2026-03-12,March,Thursday,Karachi,Doha,International,ATR 72,466,62,70,88.57,744,46128,105,Moderate,Delayed,Clear,12202,30505.0,3.0,Average flight
+PK2026_0622,2026-06-07,June,Sunday,London,Kuala Lumpur,International,Boeing 777,63,305,350,87.14,477,145485,14,Minor,On Time,Clear,3967,9917.5,3.3,Average flight
+PK2026_0623,2026-03-03,March,Tuesday,Kuala Lumpur,Doha,International,Boeing 777,83,239,350,68.29,1131,270309,197,Severe,Delayed,Storm,4397,10992.5,3.9,Delayed but comfortable
+PK2026_0624,2026-12-09,December,Wednesday,Karachi,Lahore,Domestic,Boeing 777,186,215,350,61.43,826,177590,106,Moderate,Delayed,Fog,18961,47402.5,4.6,Good experience
+PK2026_0625,2026-08-06,August,Thursday,Kuala Lumpur,Islamabad,International,Airbus A320,403,123,180,68.33,969,119187,176,Severe,Delayed,Clear,16275,40687.5,3.7,Delayed but comfortable
+PK2026_0626,2026-05-19,May,Tuesday,Kuala Lumpur,Islamabad,International,ATR 72,202,69,70,98.57,372,25668,90,Moderate,Delayed,Clear,9382,23455.0,3.5,Good experience
+PK2026_0627,2026-10-05,October,Monday,Doha,London,International,Airbus A320,220,99,180,55.0,748,74052,84,Moderate,Delayed,Rain,17145,42862.5,4.9,Delayed but comfortable
+PK2026_0628,2026-10-22,October,Thursday,Islamabad,Doha,International,Airbus A320,227,131,180,72.78,863,113053,9,Minor,On Time,Clear,6684,16710.0,3.7,Average flight
+PK2026_0629,2026-03-12,March,Thursday,Doha,Kuala Lumpur,International,ATR 72,244,45,70,64.29,414,18630,204,Severe,Delayed,Storm,19335,48337.5,3.9,Good experience
+PK2026_0630,2026-12-19,December,Saturday,Dubai,Kuala Lumpur,International,Boeing 737,441,97,160,60.62,1051,101947,92,Moderate,Delayed,Fog,11906,29765.0,2.9,Good experience
+PK2026_0631,2026-12-11,December,Friday,Dubai,Lahore,International,Boeing 737,453,129,160,80.62,695,89655,208,Severe,Delayed,Rain,7909,19772.5,2.7,Very smooth journey
+PK2026_0632,2026-05-21,May,Thursday,Jeddah,London,International,Airbus A320,438,155,180,86.11,613,95015,124,Severe,Delayed,Clear,4082,10205.0,3.1,Delayed but comfortable
+PK2026_0633,2026-12-30,December,Wednesday,Kuala Lumpur,Dubai,International,ATR 72,194,54,70,77.14,745,40230,30,Minor,Delayed,Rain,19378,48445.0,4.1,Average flight
+PK2026_0634,2026-03-06,March,Friday,Lahore,Doha,International,Airbus A320,384,144,180,80.0,646,93024,5,Minor,On Time,Clear,6978,17445.0,4.7,Very smooth journey
+PK2026_0635,2026-04-24,April,Friday,Lahore,Doha,International,Airbus A320,384,92,180,51.11,879,80868,200,Severe,Delayed,Fog,3926,9815.0,4.0,Good experience
+PK2026_0636,2026-04-11,April,Saturday,Doha,Islamabad,International,ATR 72,119,48,70,68.57,1352,64896,13,Minor,On Time,Clear,3180,7950.0,2.5,Poor service
+PK2026_0637,2026-03-22,March,Sunday,Doha,Jeddah,International,ATR 72,168,66,70,94.29,743,49038,230,Severe,Delayed,Rain,7820,19550.0,3.0,Poor service
+PK2026_0638,2026-06-02,June,Tuesday,Karachi,Jeddah,International,Airbus A320,419,165,180,91.67,1425,235125,53,Moderate,Delayed,Rain,11776,29440.0,4.0,Excellent service
+PK2026_0639,2026-01-31,January,Saturday,Islamabad,Kuala Lumpur,International,Boeing 737,267,141,160,88.12,1488,209808,181,Severe,Delayed,Storm,5951,14877.5,4.3,Delayed but comfortable
+PK2026_0640,2026-08-16,August,Sunday,Doha,Dubai,International,Boeing 737,406,128,160,80.0,763,97664,207,Severe,Delayed,Clear,16631,41577.5,3.9,Excellent service
+PK2026_0641,2026-09-19,September,Saturday,Kuala Lumpur,London,International,Boeing 737,200,154,160,96.25,585,90090,63,Moderate,Delayed,Clear,12196,30490.0,3.8,Delayed but comfortable
+PK2026_0642,2026-11-07,November,Saturday,London,Islamabad,International,Boeing 777,185,187,350,53.43,272,50864,98,Moderate,Delayed,Storm,15278,38195.0,3.2,Good experience
+PK2026_0643,2026-08-24,August,Monday,Doha,Jeddah,International,Boeing 777,265,253,350,72.29,853,215809,207,Severe,Delayed,Fog,6668,16670.0,4.9,Average flight
+PK2026_0644,2026-03-05,March,Thursday,London,Lahore,International,Boeing 777,328,298,350,85.14,786,234228,37,Moderate,Delayed,Rain,16169,40422.5,2.6,Delayed but comfortable
+PK2026_0645,2026-07-27,July,Monday,Jeddah,Dubai,International,Airbus A320,469,135,180,75.0,595,80325,151,Severe,Delayed,Clear,10625,26562.5,3.3,Excellent service
+PK2026_0646,2026-04-02,April,Thursday,Jeddah,London,International,Boeing 777,430,317,350,90.57,491,155647,158,Severe,Delayed,Storm,10616,26540.0,5.0,Delayed but comfortable
+PK2026_0647,2026-10-18,October,Sunday,Lahore,Karachi,Domestic,ATR 72,194,55,70,78.57,1299,71445,98,Moderate,Delayed,Rain,8464,21160.0,4.7,Very smooth journey
+PK2026_0648,2026-02-10,February,Tuesday,Dubai,London,International,ATR 72,153,66,70,94.29,359,23694,214,Severe,Delayed,Fog,18926,47315.0,4.4,Very smooth journey
+PK2026_0649,2026-10-11,October,Sunday,Kuala Lumpur,Jeddah,International,Airbus A320,254,115,180,63.89,654,75210,202,Severe,Delayed,Fog,17142,42855.0,4.8,Delayed but comfortable
+PK2026_0650,2026-05-19,May,Tuesday,Islamabad,Doha,International,Boeing 737,240,135,160,84.38,931,125685,209,Severe,Delayed,Clear,15047,37617.5,4.7,Average flight
+PK2026_0651,2026-04-26,April,Sunday,Lahore,Jeddah,International,Boeing 777,299,340,350,97.14,1314,446760,185,Severe,Delayed,Clear,16992,42480.0,3.8,Very smooth journey
+PK2026_0652,2026-11-16,November,Monday,Lahore,London,International,Airbus A320,404,154,180,85.56,440,67760,129,Severe,Delayed,Storm,7554,18885.0,2.6,Excellent service
+PK2026_0653,2026-06-09,June,Tuesday,Kuala Lumpur,Islamabad,International,Boeing 777,156,316,350,90.29,688,217408,42,Moderate,Delayed,Fog,8376,20940.0,4.9,Poor service
+PK2026_0654,2026-06-12,June,Friday,Kuala Lumpur,Islamabad,International,Boeing 737,463,154,160,96.25,494,76076,179,Severe,Delayed,Rain,3558,8895.0,2.7,Very smooth journey
+PK2026_0655,2026-06-23,June,Tuesday,Kuala Lumpur,Karachi,International,Airbus A320,468,93,180,51.67,824,76632,155,Severe,Delayed,Storm,12486,31215.0,4.0,Average flight
+PK2026_0656,2026-03-26,March,Thursday,Karachi,Dubai,International,ATR 72,174,60,70,85.71,1323,79380,74,Moderate,Delayed,Clear,12402,31005.0,2.9,Delayed but comfortable
+PK2026_0657,2026-02-02,February,Monday,Doha,Dubai,International,Airbus A320,139,164,180,91.11,330,54120,169,Severe,Delayed,Fog,19326,48315.0,3.5,Very smooth journey
+PK2026_0658,2026-08-14,August,Friday,Dubai,Islamabad,International,Airbus A320,231,137,180,76.11,1261,172757,84,Moderate,Delayed,Clear,10025,25062.5,2.8,Delayed but comfortable
+PK2026_0659,2026-09-05,September,Saturday,Kuala Lumpur,Karachi,International,ATR 72,136,57,70,81.43,1430,81510,77,Moderate,Delayed,Fog,19977,49942.5,4.5,Delayed but comfortable
+PK2026_0660,2026-10-29,October,Thursday,Jeddah,Karachi,International,Boeing 777,371,252,350,72.0,1080,272160,94,Moderate,Delayed,Rain,3636,9090.0,2.7,Very smooth journey
+PK2026_0661,2026-02-09,February,Monday,Islamabad,Doha,International,Boeing 777,230,224,350,64.0,925,207200,91,Moderate,Delayed,Fog,5664,14160.0,3.8,Average flight
+PK2026_0662,2026-09-04,September,Friday,London,Kuala Lumpur,International,Boeing 737,440,122,160,76.25,1194,145668,128,Severe,Delayed,Fog,11968,29920.0,4.8,Good experience
+PK2026_0663,2026-09-02,September,Wednesday,Lahore,Islamabad,Domestic,Boeing 777,297,228,350,65.14,552,125856,186,Severe,Delayed,Rain,6873,17182.5,4.7,Average flight
+PK2026_0664,2026-06-10,June,Wednesday,Karachi,Kuala Lumpur,International,ATR 72,409,62,70,88.57,1381,85622,181,Severe,Delayed,Fog,18669,46672.5,3.2,Good experience
+PK2026_0665,2026-03-14,March,Saturday,Islamabad,Lahore,Domestic,Boeing 737,431,135,160,84.38,331,44685,64,Moderate,Delayed,Storm,18833,47082.5,5.0,Very smooth journey
+PK2026_0666,2026-07-21,July,Tuesday,Lahore,Islamabad,Domestic,ATR 72,427,35,70,50.0,982,34370,97,Moderate,Delayed,Clear,9806,24515.0,4.4,Good experience
+PK2026_0667,2026-06-19,June,Friday,London,Jeddah,International,Airbus A320,238,153,180,85.0,1334,204102,114,Moderate,Delayed,Storm,9072,22680.0,4.2,Poor service
+PK2026_0668,2026-05-06,May,Wednesday,Karachi,Kuala Lumpur,International,Boeing 777,388,280,350,80.0,507,141960,47,Moderate,Delayed,Rain,18644,46610.0,4.4,Average flight
+PK2026_0669,2026-06-21,June,Sunday,Lahore,Kuala Lumpur,International,Boeing 777,361,192,350,54.86,379,72768,213,Severe,Delayed,Rain,16060,40150.0,4.1,Delayed but comfortable
+PK2026_0670,2026-08-01,August,Saturday,Karachi,Dubai,International,ATR 72,233,63,70,90.0,1284,80892,102,Moderate,Delayed,Rain,14250,35625.0,4.7,Very smooth journey
+PK2026_0671,2026-02-21,February,Saturday,Kuala Lumpur,London,International,Boeing 737,162,87,160,54.37,485,42195,137,Severe,Delayed,Clear,5223,13057.5,2.7,Good experience
+PK2026_0672,2026-06-19,June,Friday,Dubai,Karachi,International,Boeing 777,229,280,350,80.0,664,185920,207,Severe,Delayed,Clear,11183,27957.5,4.4,Very smooth journey
+PK2026_0673,2026-03-27,March,Friday,Karachi,Dubai,International,Boeing 737,238,157,160,98.12,1099,172543,93,Moderate,Delayed,Clear,14860,37150.0,2.6,Good experience
+PK2026_0674,2026-08-01,August,Saturday,Jeddah,Lahore,International,ATR 72,255,43,70,61.43,506,21758,50,Moderate,Delayed,Rain,6681,16702.5,3.4,Excellent service
+PK2026_0675,2026-04-07,April,Tuesday,Kuala Lumpur,Lahore,International,Airbus A320,413,138,180,76.67,1056,145728,128,Severe,Delayed,Rain,6824,17060.0,4.3,Average flight
+PK2026_0676,2026-01-16,January,Friday,Lahore,Kuala Lumpur,International,Boeing 737,299,100,160,62.5,1006,100600,21,Minor,Delayed,Rain,8469,21172.5,3.6,Very smooth journey
+PK2026_0677,2026-02-06,February,Friday,Dubai,Lahore,International,ATR 72,246,51,70,72.86,366,18666,59,Moderate,Delayed,Clear,19933,49832.5,3.3,Very smooth journey
+PK2026_0678,2026-08-22,August,Saturday,Islamabad,Kuala Lumpur,International,Airbus A320,236,128,180,71.11,805,103040,154,Severe,Delayed,Clear,10120,25300.0,4.8,Delayed but comfortable
+PK2026_0679,2026-10-30,October,Friday,Karachi,Doha,International,Boeing 777,116,258,350,73.71,435,112230,92,Moderate,Delayed,Storm,15694,39235.0,3.1,Delayed but comfortable
+PK2026_0680,2026-04-12,April,Sunday,Lahore,Islamabad,Domestic,Boeing 777,84,201,350,57.43,793,159393,72,Moderate,Delayed,Rain,4719,11797.5,3.7,Good experience
+PK2026_0681,2026-02-01,February,Sunday,Jeddah,London,International,Airbus A320,375,180,180,100.0,766,137880,83,Moderate,Delayed,Rain,5523,13807.5,4.0,Very smooth journey
+PK2026_0682,2026-12-08,December,Tuesday,Islamabad,Kuala Lumpur,International,Boeing 737,471,155,160,96.88,568,88040,11,Minor,On Time,Fog,5846,14615.0,3.2,Delayed but comfortable
+PK2026_0683,2026-07-05,July,Sunday,Doha,Kuala Lumpur,International,Airbus A320,145,96,180,53.33,1120,107520,146,Severe,Delayed,Fog,5124,12810.0,2.9,Excellent service
+PK2026_0684,2026-06-02,June,Tuesday,Jeddah,Karachi,International,ATR 72,291,50,70,71.43,359,17950,147,Severe,Delayed,Fog,6031,15077.5,4.6,Average flight
+PK2026_0685,2026-05-21,May,Thursday,London,Lahore,International,Boeing 737,281,137,160,85.62,966,132342,46,Moderate,Delayed,Clear,6541,16352.5,4.2,Delayed but comfortable
+PK2026_0686,2026-05-09,May,Saturday,Islamabad,Lahore,Domestic,Boeing 737,402,99,160,61.88,204,20196,216,Severe,Delayed,Fog,12770,31925.0,4.9,Excellent service
+PK2026_0687,2026-07-15,July,Wednesday,Lahore,Jeddah,International,Boeing 777,119,287,350,82.0,405,116235,163,Severe,Delayed,Rain,3357,8392.5,2.5,Poor service
+PK2026_0688,2026-02-13,February,Friday,Dubai,Lahore,International,Boeing 777,167,318,350,90.86,426,135468,161,Severe,Delayed,Storm,7948,19870.0,3.6,Good experience
+PK2026_0689,2026-03-29,March,Sunday,London,Dubai,International,Airbus A320,242,151,180,83.89,1249,188599,134,Severe,Delayed,Fog,12783,31957.5,4.4,Good experience
+PK2026_0690,2026-11-30,November,Monday,Jeddah,Dubai,International,Airbus A320,208,129,180,71.67,602,77658,171,Severe,Delayed,Clear,10013,25032.5,4.5,Excellent service
+PK2026_0691,2026-10-20,October,Tuesday,London,Doha,International,ATR 72,364,54,70,77.14,1499,80946,105,Moderate,Delayed,Rain,8462,21155.0,4.6,Average flight
+PK2026_0692,2026-09-29,September,Tuesday,Dubai,Jeddah,International,Boeing 737,311,91,160,56.88,421,38311,221,Severe,Delayed,Storm,8680,21700.0,4.7,Poor service
+PK2026_0693,2026-01-11,January,Sunday,London,Jeddah,International,Airbus A320,246,122,180,67.78,124,15128,216,Severe,Delayed,Rain,14778,36945.0,2.5,Poor service
+PK2026_0694,2026-06-05,June,Friday,London,Jeddah,International,ATR 72,228,47,70,67.14,174,8178,185,Severe,Delayed,Fog,8005,20012.5,2.7,Very smooth journey
+PK2026_0695,2026-02-04,February,Wednesday,Kuala Lumpur,Dubai,International,Boeing 737,123,96,160,60.0,162,15552,52,Moderate,Delayed,Clear,8315,20787.5,4.6,Delayed but comfortable
+PK2026_0696,2026-03-22,March,Sunday,Islamabad,London,International,Airbus A320,281,124,180,68.89,487,60388,223,Severe,Delayed,Fog,18822,47055.0,3.1,Poor service
+PK2026_0697,2026-05-25,May,Monday,Doha,Dubai,International,Boeing 777,428,188,350,53.71,319,59972,113,Moderate,Delayed,Fog,13701,34252.5,3.3,Excellent service
+PK2026_0698,2026-05-01,May,Friday,Kuala Lumpur,Karachi,International,ATR 72,139,60,70,85.71,869,52140,117,Moderate,Delayed,Clear,5889,14722.5,3.0,Good experience
+PK2026_0699,2026-10-19,October,Monday,Karachi,Lahore,Domestic,Boeing 737,384,145,160,90.62,779,112955,157,Severe,Delayed,Storm,11568,28920.0,2.7,Delayed but comfortable
+PK2026_0700,2026-09-13,September,Sunday,Karachi,London,International,Airbus A320,378,148,180,82.22,593,87764,214,Severe,Delayed,Storm,3366,8415.0,3.0,Excellent service
+PK2026_0701,2026-07-31,July,Friday,Doha,Lahore,International,Boeing 737,480,87,160,54.37,1380,120060,49,Moderate,Delayed,Fog,10654,26635.0,3.1,Excellent service
+PK2026_0702,2026-01-13,January,Tuesday,Dubai,London,International,Boeing 737,390,140,160,87.5,873,122220,230,Severe,Delayed,Clear,19571,48927.5,3.2,Average flight
+PK2026_0703,2026-11-24,November,Tuesday,Islamabad,London,International,Airbus A320,197,99,180,55.0,160,15840,45,Moderate,Delayed,Fog,11836,29590.0,3.9,Average flight
+PK2026_0704,2026-10-03,October,Saturday,Islamabad,Karachi,Domestic,Boeing 777,400,240,350,68.57,1459,350160,111,Moderate,Delayed,Storm,15624,39060.0,3.4,Very smooth journey
+PK2026_0705,2026-10-20,October,Tuesday,Karachi,Doha,International,Boeing 737,88,114,160,71.25,792,90288,20,Minor,Delayed,Clear,4828,12070.0,4.3,Excellent service
+PK2026_0706,2026-06-22,June,Monday,Lahore,Kuala Lumpur,International,ATR 72,239,57,70,81.43,377,21489,46,Moderate,Delayed,Fog,17577,43942.5,3.2,Very smooth journey
+PK2026_0707,2026-06-28,June,Sunday,Dubai,Kuala Lumpur,International,ATR 72,391,64,70,91.43,428,27392,84,Moderate,Delayed,Rain,19960,49900.0,3.7,Delayed but comfortable
+PK2026_0708,2026-10-13,October,Tuesday,Karachi,Dubai,International,Airbus A320,140,170,180,94.44,581,98770,164,Severe,Delayed,Rain,7537,18842.5,3.4,Good experience
+PK2026_0709,2026-07-16,July,Thursday,Kuala Lumpur,Doha,International,ATR 72,463,47,70,67.14,1075,50525,81,Moderate,Delayed,Clear,14889,37222.5,4.3,Excellent service
+PK2026_0710,2026-02-16,February,Monday,London,Islamabad,International,Boeing 737,249,139,160,86.88,1023,142197,184,Severe,Delayed,Storm,18357,45892.5,4.0,Poor service
+PK2026_0711,2026-12-13,December,Sunday,Islamabad,Jeddah,International,ATR 72,247,58,70,82.86,1146,66468,62,Moderate,Delayed,Rain,10527,26317.5,2.9,Very smooth journey
+PK2026_0712,2026-02-20,February,Friday,Karachi,Islamabad,Domestic,ATR 72,163,40,70,57.14,1107,44280,184,Severe,Delayed,Storm,16152,40380.0,3.2,Very smooth journey
+PK2026_0713,2026-12-09,December,Wednesday,Karachi,Dubai,International,ATR 72,318,38,70,54.29,922,35036,117,Moderate,Delayed,Storm,11960,29900.0,4.4,Very smooth journey
+PK2026_0714,2026-12-17,December,Thursday,London,Islamabad,International,Airbus A320,207,96,180,53.33,1107,106272,180,Severe,Delayed,Rain,19471,48677.5,4.2,Good experience
+PK2026_0715,2026-12-02,December,Wednesday,Islamabad,Doha,International,Airbus A320,385,122,180,67.78,231,28182,192,Severe,Delayed,Fog,14759,36897.5,3.0,Average flight
+PK2026_0716,2026-05-25,May,Monday,Jeddah,Dubai,International,ATR 72,223,43,70,61.43,829,35647,150,Severe,Delayed,Rain,12545,31362.5,3.5,Very smooth journey
+PK2026_0717,2026-09-25,September,Friday,Jeddah,Karachi,International,ATR 72,103,35,70,50.0,894,31290,191,Severe,Delayed,Fog,14745,36862.5,4.3,Very smooth journey
+PK2026_0718,2026-04-14,April,Tuesday,London,Dubai,International,Airbus A320,274,93,180,51.67,1100,102300,209,Severe,Delayed,Storm,14191,35477.5,3.4,Good experience
+PK2026_0719,2026-03-07,March,Saturday,Doha,London,International,Boeing 777,395,239,350,68.29,826,197414,43,Moderate,Delayed,Rain,19263,48157.5,2.9,Very smooth journey
+PK2026_0720,2026-12-25,December,Friday,Karachi,Islamabad,Domestic,Airbus A320,347,175,180,97.22,829,145075,185,Severe,Delayed,Storm,6924,17310.0,3.2,Average flight
+PK2026_0721,2026-05-03,May,Sunday,Kuala Lumpur,Dubai,International,Boeing 777,407,246,350,70.29,127,31242,43,Moderate,Delayed,Clear,4394,10985.0,3.2,Poor service
+PK2026_0722,2026-12-08,December,Tuesday,Doha,London,International,Boeing 737,175,145,160,90.62,155,22475,233,Severe,Delayed,Fog,16845,42112.5,2.7,Excellent service
+PK2026_0723,2026-09-28,September,Monday,Doha,Jeddah,International,Airbus A320,427,122,180,67.78,1269,154818,240,Severe,Delayed,Fog,5543,13857.5,3.0,Poor service
+PK2026_0724,2026-03-18,March,Wednesday,London,Dubai,International,Airbus A320,206,145,180,80.56,398,57710,190,Severe,Delayed,Storm,19125,47812.5,3.9,Delayed but comfortable
+PK2026_0725,2026-12-12,December,Saturday,Karachi,Lahore,Domestic,ATR 72,189,65,70,92.86,457,29705,228,Severe,Delayed,Fog,4221,10552.5,3.9,Very smooth journey
+PK2026_0726,2026-07-29,July,Wednesday,Kuala Lumpur,Karachi,International,ATR 72,230,46,70,65.71,1366,62836,137,Severe,Delayed,Clear,8610,21525.0,2.9,Average flight
+PK2026_0727,2026-08-30,August,Sunday,Doha,London,International,Boeing 777,351,245,350,70.0,1109,271705,133,Severe,Delayed,Rain,19228,48070.0,2.6,Very smooth journey
+PK2026_0728,2026-04-11,April,Saturday,Lahore,Doha,International,Boeing 777,249,289,350,82.57,302,87278,230,Severe,Delayed,Storm,17589,43972.5,4.4,Good experience
+PK2026_0729,2026-07-20,July,Monday,Karachi,Jeddah,International,ATR 72,334,40,70,57.14,1056,42240,233,Severe,Delayed,Fog,11235,28087.5,3.2,Excellent service
+PK2026_0730,2026-11-08,November,Sunday,Kuala Lumpur,Doha,International,Boeing 777,337,196,350,56.0,154,30184,234,Severe,Delayed,Storm,10907,27267.5,4.3,Excellent service
+PK2026_0731,2026-05-14,May,Thursday,Islamabad,Lahore,Domestic,Boeing 777,286,206,350,58.86,193,39758,9,Minor,On Time,Clear,17612,44030.0,3.8,Excellent service
+PK2026_0732,2026-02-24,February,Tuesday,Islamabad,Kuala Lumpur,International,Boeing 777,380,178,350,50.86,132,23496,24,Minor,Delayed,Fog,5035,12587.5,3.3,Delayed but comfortable
+PK2026_0733,2026-09-21,September,Monday,Doha,London,International,Boeing 737,305,104,160,65.0,546,56784,123,Severe,Delayed,Fog,3282,8205.0,3.8,Very smooth journey
+PK2026_0734,2026-02-07,February,Saturday,Doha,Kuala Lumpur,International,Airbus A320,93,95,180,52.78,1176,111720,118,Moderate,Delayed,Rain,12888,32220.0,3.0,Delayed but comfortable
+PK2026_0735,2026-11-23,November,Monday,Lahore,Karachi,Domestic,Boeing 737,108,121,160,75.62,440,53240,187,Severe,Delayed,Rain,18570,46425.0,4.8,Good experience
+PK2026_0736,2026-07-10,July,Friday,London,Lahore,International,ATR 72,401,44,70,62.86,845,37180,145,Severe,Delayed,Storm,3336,8340.0,3.2,Delayed but comfortable
+PK2026_0737,2026-09-11,September,Friday,London,Islamabad,International,Boeing 777,114,257,350,73.43,773,198661,88,Moderate,Delayed,Clear,11132,27830.0,4.7,Delayed but comfortable
+PK2026_0738,2026-07-09,July,Thursday,Jeddah,Doha,International,Boeing 777,232,261,350,74.57,439,114579,142,Severe,Delayed,Clear,4969,12422.5,3.2,Good experience
+PK2026_0739,2026-10-07,October,Wednesday,Dubai,Doha,International,ATR 72,119,48,70,68.57,327,15696,177,Severe,Delayed,Clear,7891,19727.5,2.9,Excellent service
+PK2026_0740,2026-01-26,January,Monday,Doha,Islamabad,International,Boeing 737,358,120,160,75.0,198,23760,75,Moderate,Delayed,Fog,11665,29162.5,4.6,Very smooth journey
+PK2026_0741,2026-11-14,November,Saturday,Islamabad,Kuala Lumpur,International,Airbus A320,359,178,180,98.89,647,115166,134,Severe,Delayed,Storm,14818,37045.0,2.5,Delayed but comfortable
+PK2026_0742,2026-09-22,September,Tuesday,Jeddah,Karachi,International,Boeing 737,102,101,160,63.12,873,88173,39,Moderate,Delayed,Storm,16892,42230.0,3.1,Very smooth journey
+PK2026_0743,2026-05-11,May,Monday,Karachi,Dubai,International,ATR 72,93,38,70,54.29,124,4712,3,Minor,On Time,Fog,6354,15885.0,3.4,Good experience
+PK2026_0744,2026-01-19,January,Monday,Jeddah,Doha,International,ATR 72,403,70,70,100.0,579,40530,199,Severe,Delayed,Storm,15293,38232.5,2.8,Average flight
+PK2026_0745,2026-10-05,October,Monday,London,Karachi,International,ATR 72,377,39,70,55.71,1250,48750,131,Severe,Delayed,Storm,13769,34422.5,4.8,Average flight
+PK2026_0746,2026-04-16,April,Thursday,Karachi,Islamabad,Domestic,Boeing 737,370,124,160,77.5,439,54436,57,Moderate,Delayed,Clear,7021,17552.5,3.5,Delayed but comfortable
+PK2026_0747,2026-03-09,March,Monday,London,Jeddah,International,Boeing 777,246,219,350,62.57,880,192720,49,Moderate,Delayed,Rain,8216,20540.0,3.6,Poor service
+PK2026_0748,2026-04-02,April,Thursday,Jeddah,Lahore,International,Boeing 777,416,239,350,68.29,1203,287517,173,Severe,Delayed,Storm,7868,19670.0,2.6,Average flight
+PK2026_0749,2026-10-23,October,Friday,Dubai,Doha,International,Boeing 777,311,237,350,67.71,1273,301701,158,Severe,Delayed,Storm,4306,10765.0,3.2,Poor service
+PK2026_0750,2026-08-06,August,Thursday,Islamabad,Kuala Lumpur,International,Boeing 737,243,101,160,63.12,546,55146,90,Moderate,Delayed,Rain,17350,43375.0,3.6,Excellent service
+PK2026_0751,2026-06-11,June,Thursday,London,Dubai,International,Airbus A320,364,141,180,78.33,149,21009,218,Severe,Delayed,Storm,14091,35227.5,4.4,Delayed but comfortable
+PK2026_0752,2026-06-30,June,Tuesday,Kuala Lumpur,Lahore,International,Boeing 777,83,278,350,79.43,490,136220,35,Moderate,Delayed,Fog,6075,15187.5,2.7,Very smooth journey
+PK2026_0753,2026-07-12,July,Sunday,Dubai,Kuala Lumpur,International,Airbus A320,111,123,180,68.33,434,53382,19,Minor,Delayed,Fog,7813,19532.5,4.6,Delayed but comfortable
+PK2026_0754,2026-02-17,February,Tuesday,Dubai,Kuala Lumpur,International,Boeing 777,64,309,350,88.29,134,41406,62,Moderate,Delayed,Fog,10789,26972.5,3.1,Very smooth journey
+PK2026_0755,2026-04-16,April,Thursday,London,Karachi,International,ATR 72,92,43,70,61.43,1304,56072,7,Minor,On Time,Fog,15813,39532.5,3.6,Average flight
+PK2026_0756,2026-01-20,January,Tuesday,London,Lahore,International,Boeing 737,466,82,160,51.25,139,11398,118,Moderate,Delayed,Clear,17006,42515.0,4.1,Delayed but comfortable
+PK2026_0757,2026-09-12,September,Saturday,Dubai,Jeddah,International,Airbus A320,256,176,180,97.78,848,149248,94,Moderate,Delayed,Storm,9221,23052.5,2.5,Average flight
+PK2026_0758,2026-06-22,June,Monday,Kuala Lumpur,Doha,International,Boeing 737,190,115,160,71.88,249,28635,142,Severe,Delayed,Clear,13296,33240.0,3.8,Excellent service
+PK2026_0759,2026-10-02,October,Friday,Kuala Lumpur,Dubai,International,ATR 72,475,63,70,90.0,213,13419,171,Severe,Delayed,Rain,11687,29217.5,3.8,Excellent service
+PK2026_0760,2026-04-15,April,Wednesday,Islamabad,Doha,International,ATR 72,163,66,70,94.29,806,53196,228,Severe,Delayed,Clear,17543,43857.5,3.4,Poor service
+PK2026_0761,2026-03-03,March,Tuesday,Lahore,Doha,International,ATR 72,226,61,70,87.14,483,29463,25,Minor,Delayed,Rain,6099,15247.5,4.0,Average flight
+PK2026_0762,2026-10-03,October,Saturday,Lahore,Dubai,International,Airbus A320,112,162,180,90.0,549,88938,85,Moderate,Delayed,Rain,13486,33715.0,4.4,Average flight
+PK2026_0763,2026-07-17,July,Friday,Lahore,Dubai,International,ATR 72,304,60,70,85.71,1317,79020,33,Moderate,Delayed,Storm,15120,37800.0,4.3,Good experience
+PK2026_0764,2026-11-04,November,Wednesday,London,Doha,International,Boeing 777,221,250,350,71.43,536,134000,214,Severe,Delayed,Rain,18942,47355.0,4.6,Excellent service
+PK2026_0765,2026-11-05,November,Thursday,Lahore,Kuala Lumpur,International,ATR 72,93,61,70,87.14,1251,76311,68,Moderate,Delayed,Storm,10674,26685.0,3.1,Poor service
+PK2026_0766,2026-07-12,July,Sunday,Lahore,London,International,Boeing 737,139,128,160,80.0,226,28928,237,Severe,Delayed,Fog,10783,26957.5,3.6,Very smooth journey
+PK2026_0767,2026-08-07,August,Friday,Doha,Karachi,International,ATR 72,123,50,70,71.43,914,45700,13,Minor,On Time,Storm,11846,29615.0,3.1,Delayed but comfortable
+PK2026_0768,2026-03-31,March,Tuesday,Dubai,London,International,Boeing 737,83,137,160,85.62,424,58088,56,Moderate,Delayed,Clear,6383,15957.5,3.4,Excellent service
+PK2026_0769,2026-08-31,August,Monday,Lahore,London,International,Boeing 737,368,88,160,55.0,718,63184,116,Moderate,Delayed,Fog,10946,27365.0,5.0,Very smooth journey
+PK2026_0770,2026-01-08,January,Thursday,Lahore,London,International,Airbus A320,111,173,180,96.11,415,71795,60,Moderate,Delayed,Clear,8439,21097.5,2.5,Delayed but comfortable
+PK2026_0771,2026-11-05,November,Thursday,Karachi,London,International,Boeing 737,306,97,160,60.62,196,19012,132,Severe,Delayed,Rain,10053,25132.5,4.4,Poor service
+PK2026_0772,2026-10-21,October,Wednesday,Karachi,London,International,Airbus A320,275,100,180,55.56,325,32500,235,Severe,Delayed,Fog,4759,11897.5,3.4,Average flight
+PK2026_0773,2026-08-05,August,Wednesday,Dubai,London,International,Airbus A320,254,95,180,52.78,1289,122455,66,Moderate,Delayed,Fog,7542,18855.0,3.5,Average flight
+PK2026_0774,2026-02-19,February,Thursday,London,Karachi,International,Boeing 737,317,138,160,86.25,1054,145452,82,Moderate,Delayed,Storm,7186,17965.0,3.8,Poor service
+PK2026_0775,2026-06-16,June,Tuesday,Karachi,Islamabad,Domestic,Airbus A320,202,155,180,86.11,734,113770,10,Minor,On Time,Storm,18939,47347.5,2.5,Good experience
+PK2026_0776,2026-09-22,September,Tuesday,Dubai,Jeddah,International,Boeing 737,103,125,160,78.12,1063,132875,43,Moderate,Delayed,Rain,13474,33685.0,3.9,Delayed but comfortable
+PK2026_0777,2026-02-15,February,Sunday,Islamabad,Lahore,Domestic,Boeing 737,70,88,160,55.0,307,27016,157,Severe,Delayed,Storm,6030,15075.0,2.6,Very smooth journey
+PK2026_0778,2026-06-10,June,Wednesday,London,Dubai,International,Airbus A320,147,102,180,56.67,630,64260,111,Moderate,Delayed,Fog,10634,26585.0,3.2,Poor service
+PK2026_0779,2026-12-10,December,Thursday,Dubai,Kuala Lumpur,International,Airbus A320,188,136,180,75.56,477,64872,9,Minor,On Time,Storm,18236,45590.0,2.6,Good experience
+PK2026_0780,2026-08-30,August,Sunday,Kuala Lumpur,London,International,ATR 72,143,44,70,62.86,369,16236,191,Severe,Delayed,Rain,8188,20470.0,4.5,Excellent service
+PK2026_0781,2026-10-31,October,Saturday,Islamabad,Jeddah,International,Boeing 737,353,152,160,95.0,738,112176,156,Severe,Delayed,Storm,4522,11305.0,2.9,Average flight
+PK2026_0782,2026-05-07,May,Thursday,Jeddah,Kuala Lumpur,International,Boeing 777,135,277,350,79.14,869,240713,88,Moderate,Delayed,Rain,5131,12827.5,4.5,Excellent service
+PK2026_0783,2026-08-15,August,Saturday,Islamabad,Dubai,International,Airbus A320,254,148,180,82.22,1464,216672,87,Moderate,Delayed,Storm,14840,37100.0,3.5,Delayed but comfortable
+PK2026_0784,2026-02-08,February,Sunday,Dubai,Doha,International,Boeing 737,384,91,160,56.88,328,29848,167,Severe,Delayed,Fog,12924,32310.0,4.7,Delayed but comfortable
+PK2026_0785,2026-05-10,May,Sunday,Doha,Karachi,International,Airbus A320,399,130,180,72.22,827,107510,65,Moderate,Delayed,Rain,19750,49375.0,3.1,Average flight
+PK2026_0786,2026-01-29,January,Thursday,Doha,Islamabad,International,Airbus A320,387,175,180,97.22,458,80150,171,Severe,Delayed,Rain,16451,41127.5,2.6,Good experience
+PK2026_0787,2026-03-19,March,Thursday,Jeddah,London,International,Boeing 737,74,144,160,90.0,755,108720,78,Moderate,Delayed,Storm,16882,42205.0,3.0,Very smooth journey
+PK2026_0788,2026-02-10,February,Tuesday,Lahore,Kuala Lumpur,International,Boeing 737,170,155,160,96.88,612,94860,159,Severe,Delayed,Clear,4345,10862.5,4.1,Excellent service
+PK2026_0789,2026-09-21,September,Monday,Lahore,Dubai,International,Boeing 777,263,310,350,88.57,736,228160,123,Severe,Delayed,Clear,8358,20895.0,4.2,Average flight
+PK2026_0790,2026-05-13,May,Wednesday,Karachi,Jeddah,International,Boeing 777,330,308,350,88.0,726,223608,122,Severe,Delayed,Fog,6294,15735.0,4.8,Excellent service
+PK2026_0791,2026-06-15,June,Monday,Doha,Kuala Lumpur,International,Airbus A320,229,141,180,78.33,1336,188376,69,Moderate,Delayed,Clear,10696,26740.0,4.5,Very smooth journey
+PK2026_0792,2026-10-31,October,Saturday,Kuala Lumpur,London,International,Airbus A320,461,116,180,64.44,427,49532,21,Minor,Delayed,Fog,9908,24770.0,3.7,Excellent service
+PK2026_0793,2026-07-12,July,Sunday,Islamabad,London,International,ATR 72,459,62,70,88.57,249,15438,18,Minor,Delayed,Rain,14820,37050.0,2.8,Good experience
+PK2026_0794,2026-12-02,December,Wednesday,Karachi,Jeddah,International,Boeing 737,241,139,160,86.88,646,89794,112,Moderate,Delayed,Fog,4387,10967.5,4.7,Good experience
+PK2026_0795,2026-07-02,July,Thursday,Lahore,Doha,International,ATR 72,374,58,70,82.86,960,55680,118,Moderate,Delayed,Fog,15573,38932.5,3.8,Poor service
+PK2026_0796,2026-08-03,August,Monday,Lahore,Karachi,Domestic,ATR 72,425,53,70,75.71,1111,58883,61,Moderate,Delayed,Rain,8199,20497.5,4.9,Delayed but comfortable
+PK2026_0797,2026-05-19,May,Tuesday,Dubai,Karachi,International,ATR 72,141,42,70,60.0,1002,42084,151,Severe,Delayed,Fog,5434,13585.0,4.3,Average flight
+PK2026_0798,2026-01-02,January,Friday,Islamabad,Lahore,Domestic,ATR 72,456,56,70,80.0,262,14672,27,Minor,Delayed,Clear,8563,21407.5,4.6,Delayed but comfortable
+PK2026_0799,2026-09-10,September,Thursday,Kuala Lumpur,Jeddah,International,ATR 72,108,66,70,94.29,1322,87252,211,Severe,Delayed,Clear,5170,12925.0,3.1,Delayed but comfortable
+PK2026_0800,2026-08-17,August,Monday,Karachi,Doha,International,Airbus A320,194,138,180,76.67,1269,175122,37,Moderate,Delayed,Rain,19205,48012.5,3.2,Excellent service
