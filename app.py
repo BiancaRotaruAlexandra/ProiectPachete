@@ -94,6 +94,7 @@ SECTIONS = [
     "Clusterizare K-Means",
     "Regresie Multipla",
     "Regresie Logistica",
+    "Cerinte Proiect & Documentatie",
 ]
 
 with st.sidebar:
@@ -642,3 +643,52 @@ elif section == SECTIONS[6]:
                            color="Coeficient", color_continuous_scale="RdBu_r")
         fig_coef.update_layout(yaxis=dict(autorange="reversed"))
         st.plotly_chart(fig_coef, use_container_width=True)
+
+
+# ===================================================
+# CERINTE PROIECT — MAPARE (pentru raport Word/PDF)
+# ===================================================
+elif section == SECTIONS[7]:
+    st.title("Cerinte proiect — mapare functionalitati")
+    st.markdown("""
+    Acest dashboard raspunde cerintelor pentru **Python / Streamlit** (minim 8 facilitate din lista oficiala).
+    Partea **SAS** este in folderul `sas/` — fisierul `pia_airline_project.sas` (editati `%projroot` la calea dumneavoastra).
+    """)
+
+    st.subheader("Python / Streamlit — checklist (≥8)")
+    py_rows = [
+        ("Afisare, grafice Streamlit / Plotly / Matplotlib", "Toate sectiunile (metrics, chart-uri, tab-uri)"),
+        ("GeoPandas", "`Harta Rutelor` — GeoDataFrame puncte + linii rute; vizualizare Plotly Scattergeo"),
+        ("Valori lipsa si extreme", "`Explorare & Calitate Date` + functia `preprocess()` — mediana, clamp IQR"),
+        ("Codificare date", "`LabelEncoder` pentru categorii (+ coloane `*_enc` folosite in modele)"),
+        ("Scalare", "`StandardScaler` — coloane `*_scaled` si modele ML"),
+        ("Statistici, grupare, agregare pandas", "`Statistici & Agregari` — `groupby`, `agg`, corelatii"),
+        ("Functii de grup", "`groupby(...).agg(...)` cu agregari numite (`Total_Revenue`, etc.)"),
+        ("scikit-learn — clusterizare", "`Clusterizare K-Means` — Elbow, Silhouette, scatter centroizi"),
+        ("scikit-learn — regresie logistica", "`Regresie Logistica` — clasificare `Is_Delayed`, ROC, confuzie"),
+        ("statsmodels — regresie multipla", "`Regresie Multipla` — OLS, diagnostice reziduuri"),
+    ]
+    st.table(pd.DataFrame(py_rows, columns=["Cerinta / facilitate", "Unde in aplicatie"]))
+
+    st.subheader("SAS — checklist (≥8) — fisier `sas/pia_airline_project.sas`")
+    sas_rows = [
+        ("Set SAS din fisier extern", "PROC IMPORT CSV"),
+        ("Formate utilizator", "PROC FORMAT (`$delay_fmt`, `revenue_band`, ...)"),
+        ("Iterativ / conditional", "DATA steps — IF/WHERE, macro `%describe_numeric`"),
+        ("Subseturi", "`intl_only`, DELETE in DATA prep"),
+        ("Functii SAS", "CATX, LOG, SUM/MEAN in PROC SQL"),
+        ("Combinare seturi (MERGE)", "MERGE `flights_prep` cu `aircraft_profile`"),
+        ("PROC SQL", "JOIN-uri, GROUP BY, FULL JOIN demo"),
+        ("Masive (ARRAY)", "ARRAY `ops` + DO loop in `flights_prep`"),
+        ("Raportare", "PROC REPORT, PROC PRINT"),
+        ("Proceduri statistice", "PROC MEANS, CORR, REG, LOGISTIC"),
+        ("Grafice", "PROC SGPLOT"),
+        ("ML / cluster", "PROC FASTCLUS"),
+    ]
+    st.table(pd.DataFrame(sas_rows, columns=["Cerinta / facilitate", "Implementare SAS"]))
+
+    st.info(
+        "In documentul Word/PDF: pentru fiecare facilitate alegeti o problema scurta, date necesare, "
+        "metoda/formula, captura de ecran sau tabel din SAS/Python si interpretare economica "
+        "(ex.: venit, intarzieri, extindere rute / flota)."
+    )
