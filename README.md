@@ -1,14 +1,18 @@
 # ProiectPachete
 
-Analiza activitatii unei companii aeriene (dataset `data/PIA_2026_Advanced_Kaggle_Dataset.csv`) — dashboard **Streamlit** + script **SAS**.
+Dashboard **Streamlit** pe CSV-ul din `data/`, plus script **SAS** in folderul `sas/`.
 
 ## Python / Streamlit
 
-1. Instaleaza dependentele: `pip install -r requirements.txt`
-2. Ruleaza aplicatia din radacina proiectului: `streamlit run app.py`
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+(rulezi din radacina repo-ului ca sa gaseasca `data/...`)
 
 ## SAS
 
-1. Deschide `sas/pia_airline_project.sas` in SAS Studio / SAS OnDemand / Enterprise Guide.
-2. Editeaza macro-ul `%let projroot = ...` astfel incat sa pointeze catre acest folder (unde este `data/`).
-3. Ruleaza intregul script; verifica numele variabilelor dupa `PROC IMPORT` daca versiunea de SAS redenumeste automat unele coloane.
+1. Deschizi `sas/pia_airline_project.sas` in SAS Studio (OnDemand sau instalare locala).
+2. **OnDemand:** setezi `%let file_home = ...` la folderul unde ai upload-at CSV-ul; nu merge cale Windows pentru fisier.
+3. **Local Windows:** comentezi cele trei `%let` cu `file_home` si decomentezi liniile cu `%projroot` din blocul din script.
+4. Dupa `PROC IMPORT`, daca SAS ti-a schimbat numele la coloane, verifici in LOG / `PROC CONTENTS`.

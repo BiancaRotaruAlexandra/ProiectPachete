@@ -24,9 +24,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# -------------------------------------------
-# LOAD DATA
-# -------------------------------------------
+# fisierul CSV trebuie sa stea in ./data fata de unde rulezi streamlit
 DATA_PATH = "data/PIA_2026_Advanced_Kaggle_Dataset.csv"
 
 @st.cache_data
@@ -38,34 +36,31 @@ def load_data(path):
 try:
     raw_df = load_data(DATA_PATH)
 except FileNotFoundError:
-    st.error(f"Fisierul `{DATA_PATH}` nu a fost gasit. Plaseaza-l in acelasi director cu aplicatia.")
+    st.error(f"Lipseste `{DATA_PATH}` — pune CSV-ul in folderul data/ langa app.")
     st.stop()
 
-# -------------------------------------------
-# PREPROCESARE
-# -------------------------------------------
 @st.cache_data
 def preprocess(df):
     df = df.copy()
 
-    # 1. Tratare valori lipsa – imputare cu mediana pentru numerice
+    # lipseste ceva la numeric -> mediana (nu media, ca o trage de urechi de outlieri)
     for col in df.select_dtypes(include="number").columns:
         df[col] = df[col].fillna(df[col].median())
 
-    # 2. Tratare valori extreme pe coloanele cheie
+    # IQR clip pe ce ne interesa la proiect (intarzieri, venit, combustibil)
     for col in ["Delay_Minutes", "Revenue_USD", "Fuel_Consumption_Liters"]:
         Q1, Q3 = df[col].quantile(0.25), df[col].quantile(0.75)
         IQR = Q3 - Q1
         df[col] = df[col].clip(lower=Q1 - 1.5 * IQR, upper=Q3 + 1.5 * IQR)
 
-    # 3. Label Encoding pentru variabile categorice
+    # categorii -> cod numeric (fit_transform refacut la fiecare rulare streamlit, ok pt demo)
     le = LabelEncoder()
     cat_cols = ["Route_Type", "Aircraft_Type", "Delay_Category",
                 "On_Time_Status", "Weather_Condition", "Day_of_Week", "Month"]
     for col in cat_cols:
         df[col + "_enc"] = le.fit_transform(df[col].astype(str))
 
-    # 4. StandardScaler pe variabilele numerice principale
+    # scaler pentru KMeans / logistic (aceleasi coloane ca in cerinta ML)
     num_cols = ["Flight_Duration_Minutes", "Passengers", "Seat_Capacity",
                 "Load_Factor_%", "Ticket_Price_USD", "Revenue_USD",
                 "Delay_Minutes", "Fuel_Consumption_Liters", "CO2_Emissions_kg", "Customer_Rating"]
@@ -73,19 +68,17 @@ def preprocess(df):
     scaled = pd.DataFrame(scaler.fit_transform(df[num_cols]), columns=[c + "_scaled" for c in num_cols])
     df = pd.concat([df.reset_index(drop=True), scaled], axis=1)
 
-    # 5. Variabila tinta binara pentru clasificare
+    # 1 = intarziat, pentru regresia logistica
     df["Is_Delayed"] = (df["On_Time_Status"] == "Delayed").astype(int)
 
-    # 6. Coloana ruta
+    # combinare orase ca string pt grupari pe ruta in dashboard
     df["Route"] = df["Departure_City"] + " -> " + df["Arrival_City"]
 
     return df
 
+# preprocess cached ca nu are sens sa recalculez la fiecare click prin app
 df = preprocess(raw_df)
 
-# -------------------------------------------
-# SIDEBAR NAVIGATION
-# -------------------------------------------
 SECTIONS = [
     "Prezentare Generala",
     "Explorare & Calitate Date",
@@ -104,9 +97,6 @@ with st.sidebar:
     st.caption("Proiect Pachete Software · CSIE Anul III")
 
 
-# ===================================================
-# PREZENTARE GENERALA
-# ===================================================
 if section == SECTIONS[0]:
     st.title("PIA 2026 – Airline Performance Dashboard")
 
@@ -145,9 +135,6 @@ if section == SECTIONS[0]:
     st.plotly_chart(fig3, use_container_width=True)
 
 
-# ===================================================
-# EXPLORARE & CALITATE DATE
-# ===================================================
 elif section == SECTIONS[1]:
     st.title("Explorare & Calitatea Datelor")
     st.write(f"**Dimensiuni dataset:** {raw_df.shape[0]} randuri x {raw_df.shape[1]} coloane")
@@ -225,9 +212,6 @@ elif section == SECTIONS[1]:
         st.info(f"Q1={Q1:.1f}  Q3={Q3:.1f}  IQR={IQR:.1f}  |  Outlieri detectati: **{n_out}** ({n_out/len(raw_df)*100:.1f}%)")
 
 
-# ===================================================
-# STATISTICI & AGREGARI
-# ===================================================
 elif section == SECTIONS[2]:
     st.title("Statistici & Agregari Pandas")
 
@@ -310,6 +294,7 @@ elif section == SECTIONS[2]:
         st.dataframe(weather_grp, use_container_width=True)
 
     with tab4:
+        # las afara coloanele *_scaled si *_enc ca altfel heatmap-ul e redundant / greu de citit
         base_num = [c for c in df.select_dtypes(include="number").columns
                     if not c.endswith("_scaled") and not c.endswith("_enc")
                     and c not in ["Month_Order", "Is_Delayed"]]
@@ -324,9 +309,6 @@ elif section == SECTIONS[2]:
         plt.close()
 
 
-# ===================================================
-# HARTA RUTELOR
-# ===================================================
 elif section == SECTIONS[3]:
     st.title("Harta Rutelor Aeriene (GeoPandas)")
 
@@ -337,6 +319,7 @@ elif section == SECTIONS[3]:
         st.error("Instaleaza `geopandas` si `shapely`: `pip install geopandas shapely`")
         st.stop()
 
+    # coordonate approximate de pe net — lipsesc orase doar daca apar unele noi in CSV
     CITY_COORDS = {
         "Jeddah": (21.5433, 39.1728), "Islamabad": (33.7215, 73.0433),
         "Dubai": (25.2048, 55.2708), "Kuala Lumpur": (3.1390, 101.6869),
@@ -420,9 +403,6 @@ elif section == SECTIONS[3]:
     )
 
 
-# ===================================================
-# CLUSTERIZARE K-MEANS
-# ===================================================
 elif section == SECTIONS[4]:
     st.title("Clusterizare K-Means")
 
@@ -474,6 +454,7 @@ elif section == SECTIONS[4]:
     col_x = st.selectbox("Axa X:", FEATURES, index=0)
     col_y = st.selectbox("Axa Y:", FEATURES, index=2)
 
+    # centroizi inapoi in scala originala ca sa ii pot pune pe scatter
     centroids_orig = scaler_km.inverse_transform(kmeans.cluster_centers_)
     centroids_df = pd.DataFrame(centroids_orig, columns=FEATURES)
 
@@ -490,9 +471,6 @@ elif section == SECTIONS[4]:
     st.dataframe(df_cluster.groupby("Cluster")[FEATURES].mean().round(2), use_container_width=True)
 
 
-# ===================================================
-# REGRESIE MULTIPLA
-# ===================================================
 elif section == SECTIONS[5]:
     st.title("Regresie Multipla (statsmodels OLS)")
 
@@ -562,9 +540,6 @@ elif section == SECTIONS[5]:
         plt.close()
 
 
-# ===================================================
-# REGRESIE LOGISTICA
-# ===================================================
 elif section == SECTIONS[6]:
     st.title("Regresie Logistica – Predictie Intarziere")
 
@@ -645,41 +620,38 @@ elif section == SECTIONS[6]:
         st.plotly_chart(fig_coef, use_container_width=True)
 
 
-# ===================================================
-# CERINTE PROIECT — MAPARE (pentru raport Word/PDF)
-# ===================================================
 elif section == SECTIONS[7]:
     st.title("Cerinte proiect — mapare functionalitati")
     st.markdown("""
-    Acest dashboard raspunde cerintelor pentru **Python / Streamlit** (minim 8 facilitate din lista oficiala).
-    Partea **SAS** este in folderul `sas/` — fisierul `pia_airline_project.sas` (editati `%projroot` la calea dumneavoastra).
+    Am notat aici ce din lista de la curs e acoperit in **Streamlit** (minim 8 puncte).
+    La **SAS** am lucrat in `sas/pia_airline_project.sas` — pe OnDemand schimb `%file_home`, local schimb blocul cu Windows.
     """)
 
-    st.subheader("Python / Streamlit — checklist (≥8)")
+    st.subheader("Python / Streamlit — ce am bifat")
     py_rows = [
-        ("Afisare, grafice Streamlit / Plotly / Matplotlib", "Toate sectiunile (metrics, chart-uri, tab-uri)"),
-        ("GeoPandas", "`Harta Rutelor` — GeoDataFrame puncte + linii rute; vizualizare Plotly Scattergeo"),
-        ("Valori lipsa si extreme", "`Explorare & Calitate Date` + functia `preprocess()` — mediana, clamp IQR"),
-        ("Codificare date", "`LabelEncoder` pentru categorii (+ coloane `*_enc` folosite in modele)"),
-        ("Scalare", "`StandardScaler` — coloane `*_scaled` si modele ML"),
-        ("Statistici, grupare, agregare pandas", "`Statistici & Agregari` — `groupby`, `agg`, corelatii"),
-        ("Functii de grup", "`groupby(...).agg(...)` cu agregari numite (`Total_Revenue`, etc.)"),
-        ("scikit-learn — clusterizare", "`Clusterizare K-Means` — Elbow, Silhouette, scatter centroizi"),
-        ("scikit-learn — regresie logistica", "`Regresie Logistica` — clasificare `Is_Delayed`, ROC, confuzie"),
-        ("statsmodels — regresie multipla", "`Regresie Multipla` — OLS, diagnostice reziduuri"),
+        ("UI Streamlit + grafice", "metrics, tab-uri, Plotly/Matplotlib unde am avut nevoie"),
+        ("GeoPandas", "sectiunea Harta — GeoDataFrame + linii intre orase, afisat cu Scattergeo"),
+        ("NaN + outlieri", "Explorare + `preprocess()`: mediana, taiere IQR"),
+        ("Codificare", "LabelEncoder -> coloane *_enc pentru modele"),
+        ("Scalare", "StandardScaler pentru cluster si logistic"),
+        ("Agregari pandas", "groupby/agg, tabele + grafice"),
+        ("Named agg", "ex: Total_Revenue=..., la fel ca la seminar"),
+        ("sklearn cluster", "KMeans + elbow/silhouette cum am facut la ML"),
+        ("sklearn logistic", "Is_Delayed, ROC, matrice confuzie"),
+        ("statsmodels OLS", "regresie multipla + plot-uri reziduuri"),
     ]
     st.table(pd.DataFrame(py_rows, columns=["Cerinta / facilitate", "Unde in aplicatie"]))
 
-    st.subheader("SAS — checklist (≥8) — fisier `sas/pia_airline_project.sas`")
+    st.subheader("SAS — ce am pus in script")
     sas_rows = [
         ("Set SAS din fisier extern", "PROC IMPORT CSV"),
         ("Formate utilizator", "PROC FORMAT (`$delay_fmt`, `revenue_band`, ...)"),
-        ("Iterativ / conditional", "DATA steps — IF/WHERE, macro `%describe_numeric`"),
-        ("Subseturi", "`intl_only`, DELETE in DATA prep"),
-        ("Functii SAS", "CATX, LOG, SUM/MEAN in PROC SQL"),
-        ("Combinare seturi (MERGE)", "MERGE `flights_prep` cu `aircraft_profile`"),
-        ("PROC SQL", "JOIN-uri, GROUP BY, FULL JOIN demo"),
-        ("Masive (ARRAY)", "ARRAY `ops` + DO loop in `flights_prep`"),
+        ("Iterativ / conditional", "IF/WHERE in DATA + macro simplu pentru MEANS"),
+        ("Subseturi", "intl_only + filtru pasageri in prep"),
+        ("Functii SAS", "CATX, LOG, agregari in SQL"),
+        ("MERGE", "flights_prep + aircraft_profile"),
+        ("PROC SQL", "join-uri + GROUP BY + FULL JOIN exemplu"),
+        ("ARRAY", "DO peste Delay/Revenue/Fuel in flights_prep"),
         ("Raportare", "PROC REPORT, PROC PRINT"),
         ("Proceduri statistice", "PROC MEANS, CORR, REG, LOGISTIC"),
         ("Grafice", "PROC SGPLOT"),
@@ -688,7 +660,7 @@ elif section == SECTIONS[7]:
     st.table(pd.DataFrame(sas_rows, columns=["Cerinta / facilitate", "Implementare SAS"]))
 
     st.info(
-        "In documentul Word/PDF: pentru fiecare facilitate alegeti o problema scurta, date necesare, "
-        "metoda/formula, captura de ecran sau tabel din SAS/Python si interpretare economica "
-        "(ex.: venit, intarzieri, extindere rute / flota)."
+        "La Word/PDF: pentru fiecare punct din cerinta am pus problema scurta, ce date am folosit, "
+        "metoda (formula unde are sens), print screen din app sau SAS si ce inseamna pentru companie "
+        "(venituri, intarzieri, unde merita extins)."
     )
