@@ -2,18 +2,31 @@
   Proiect Pachete Software – parte SAS
   Analiza activitatii aeriene (PIA 2026) / extindere retea
 
-  INSTRUCTIUNI:
-  1. Modifica %projroot astfel incat sa indice folderul unde se afla
-     subfolderul data\ cu fisierul CSV (acelasi ca pentru Streamlit).
-  2. Ruleaza intreg scriptul in SAS Studio / SAS OnDemand / SAS EG.
+  CAI:
+  - SAS OnDemand ruleaza pe LINUX — NU folosi C:\Users\... pentru PDF/CSV.
+    Setati %file_home la folderul unde e CSV-ul (Properties in SAS Studio).
+    PDF se creeaza PE SERVER; Download din Server Files -> PC.
+  - SAS local Windows: comentati blocul ODA, decomentati blocul LOCAL.
 
-  Fisier sursa CSV (aceleasi coloane ca in aplicatia Python):
-  PIA_2026_Advanced_Kaggle_Dataset.csv
+  CSV: PIA_2026_Advanced_Kaggle_Dataset.csv
 **********************************************************************/
 
-/* ---------- Cale proiect (EDITATI aici) ---------- */
+/* ---------- ALEGETI: OnDemand (implicit) sau LOCAL ---------- */
+
+/* === SAS OnDemand — editati %file_home daca CSV nu e aici === */
+%let file_home = /home/u64516347/sasuser.v94;
+%let csvfile   = &file_home./PIA_2026_Advanced_Kaggle_Dataset.csv;
+%let pdf_out   = &file_home./Rezultate_proiect.pdf;
+
+/*
+=== SAS local Windows — decomentati si comentati blocul de mai sus ===
 %let projroot = C:\Users\Andreea\Desktop\proiect-pachete\ProiectPachete;
 %let csvfile  = &projroot.\data\PIA_2026_Advanced_Kaggle_Dataset.csv;
+%let pdf_out  = &projroot.\Rezultate_proiect.pdf;
+*/
+
+ODS PDF FILE="&pdf_out" STYLE=STATISTICAL;
+ODS GRAPHICS ON;
 
 /* ---------- 1. Creare set de date SAS din fisier extern ---------- */
 PROC IMPORT DATAFILE="&csvfile"
@@ -220,7 +233,6 @@ RUN;
 TITLE;
 
 /* ---------- 12. Grafice – PROC SGPLOT ---------- */
-ODS GRAPHICS ON;
 
 TITLE 'Distributie venit';
 PROC SGPLOT DATA=WORK.flights_prep;
@@ -240,8 +252,6 @@ PROC SGPLOT DATA=WORK.flights_prep;
     SCATTER X=Passengers Y=Revenue_USD / GROUP=On_Time_Status MARKERATTRS=(SIZE=3);
 RUN;
 TITLE;
-
-ODS GRAPHICS OFF;
 
 /* ---------- 13. SQL – indicator outer-style (FULL join demo pe subset mic) ---------- */
 DATA WORK.lookup_city;
@@ -267,6 +277,9 @@ PROC PRINT DATA=WORK.city_role(OBS=20);
 RUN;
 TITLE;
 
+ODS PDF CLOSE;
+ODS GRAPHICS OFF;
+
 /**********************************************************************
   Mapare rapida cerinte minime SAS (nota 5+):
 
@@ -283,5 +296,5 @@ TITLE;
  11) Grafice                            -> PROC SGPLOT
  12) ML / cluster                       -> PROC FASTCLUS
 
-  Adaptati path-ul %projroot si interpretati economic rezultatele in Word/PDF.
+  Adaptati %file_home (OnDemand) sau %projroot (LOCAL). Interpretare economica in Word/PDF.
 **********************************************************************/
